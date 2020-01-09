@@ -46,6 +46,7 @@ export default {
 
 <style lang="scss">
 .header {
+  margin-top: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -43,8 +43,8 @@ export default {
 
   &__image {
     border-radius: 100%;
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 158px;
     margin-bottom: 1em;
   }
 
