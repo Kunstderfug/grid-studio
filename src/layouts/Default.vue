@@ -87,14 +87,14 @@ export default {
   }
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-weight: 300;
-  color: var(--link-color-p);
-}
+// h1,
+// h2,
+// h3,
+// h4,
+// h5 {
+//   font-weight: 300;
+//   color: var(--link-color-p);
+// }
 
 .footer {
   display: flex;
@@ -159,10 +159,12 @@ button:focus {
   background-color: var(--eq-color);
   color: var(--body-color);
   border-radius: 0.7rem;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   margin-top: 1rem;
-  font-size: 1.1rem;
   font-family: monospace;
+  p {
+    font-size: 1rem;
+  }
 }
 
 details {

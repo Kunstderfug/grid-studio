@@ -17,6 +17,7 @@
 
       <g-link class="post-card__link" :to="post.path">Link</g-link>
     </div>
+    <hr />
   </div>
 </template>
 
@@ -35,9 +36,9 @@ export default {
 
 <style lang="scss">
 .post-card {
-  margin-bottom: var(--space);
+  margin-bottom: calc(var(--space) -1);
   position: relative;
-  border: 1px solid var(--link-color-p);
+  // border: 1px solid var(--link-color-p);
 
   &__header {
     margin-left: calc(var(--space) * -1);

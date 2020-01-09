@@ -20,7 +20,8 @@ description: 'Everything about V. Gryaznov piano and recording studio.'
 
 <div class="eq">
 
-High quality video recording up to 4K.  
+High quality video recording up to 4K.
+
 One or two angle shoot.
 
 Multitrack audio recording, up to 96khz / 24 bit.
@@ -31,7 +32,7 @@ CD recording, producing and mastering.
 
 <div class="eq">
 
-I give piano lessons/consultations for professionals who need quick or detailed feedback with the possibility to record the lesson in HQ for your future reference. This optional recording is free of charge.
+I give piano lessons / consultations for professionals who need quick or detailed feedback with the possibility to record the lesson in HQ for your future reference. This optional recording is free of charge.
 
 One hour lesson - $100  
 Students - $70
@@ -48,7 +49,7 @@ The schedule depends on my availability, see my [concerts](/concerts) page.
 
 <div class="eq">
 
-One hour - \$75
+<p>One hour - $75</p>
 
 </div>
 
@@ -67,7 +68,7 @@ Two angles shoot - $500
 
 <div class="eq">
 
-1 CD - \$1000
+<p>1 CD - $1000</p>
 
 This option is including 4 hours of recording at studio.
 
