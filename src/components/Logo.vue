@@ -14,10 +14,15 @@ query {
 
 <style lang="scss">
 .logo {
+  box-sizing: border-box;
   text-decoration: none;
   text-transform: uppercase;
   color: var(--link-color) !important;
-  font-size: 0.9em;
+
+  &:hover {
+    color: var(--link-color-p) !important;
+    border-bottom: none;
+  }
 
   &__image {
     vertical-align: middle;

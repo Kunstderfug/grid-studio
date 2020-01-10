@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="post-title">
+    <div class="post-title" id="intro">
       <h1 class="post-title__text">{{ $page.post.title }}</h1>
 
       <PostMeta :post="$page.post" />
@@ -12,6 +12,9 @@
       </div>
 
       <div class="post__content" v-html="$page.post.content" />
+      <div style="text-align: right">
+        <a href="#intro">back to top</a>
+      </div>
 
       <div class="post__footer">
         <PostTags :post="$page.post" />

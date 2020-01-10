@@ -1,14 +1,12 @@
 ---
 title: Welcome
-date: 2020-01-07
+date: 2020-01-05
 published: true
-tags: ['Markdown', 'Releases']
+tags: ["studio", "recording", "audition"]
+cover_image: "./images/studio-steinway-1.jpg"
 canonical_url: false
-description: 'Everything about V. Gryaznov piano and recording studio.'
-# cover_image: ./images/alexandr-podvalny-220262-unsplash.jpg
+description: "Everything about V. Gryaznov piano and recording studio."
 ---
-
-![Piano studio](./../../src/assets/studio-steinway.jpg)
 
 <div style="text-align: center">
 
@@ -53,7 +51,7 @@ The schedule depends on my availability, see my [concerts](/concerts) page.
 
 </div>
 
-#### Video for auditions/competitions/YouTube, etc.
+#### Video for auditions / competitions / YouTube, etc.
 
 <div class="eq">
 
@@ -166,10 +164,4 @@ Oktava professional condenser microphones (6)
 <br>
 <br>
 <button type="submit">Send your message</button>
-
-<div style="text-align: right">
-
-[back to top](#intro)
-
-</div>
 </form>

@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,600&display=swap");
 
 html {
   font-size: var(--base-font-size);
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
   line-height: 1.45;
 }
 
@@ -17,14 +17,18 @@ p {
 h1,
 h2,
 h3,
-h4,
+// h4,
 h5 {
-  transition: color 0.6s;
+  transition: color 6s;
+  text-transform: uppercase;
   color: var(--title-color);
-  margin: 2.75rem 0 1rem;
-  font-family: 'Open Sans', sans-serif;
+  margin: 1.75rem 0 1rem;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   line-height: 1.15;
+  &:hover {
+    color: var(--link-color);
+  }
 }
 
 h1 {
@@ -34,6 +38,7 @@ h1 {
 
 h2 {
   font-size: 1.602em;
+  margin-left: calc(var(--space) * -0.9);
 }
 
 h3 {
@@ -42,6 +47,7 @@ h3 {
 
 h4 {
   font-size: 1.266em;
+  margin-left: calc(var(--space) * -0.9);
 }
 
 h5 {

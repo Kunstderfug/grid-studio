@@ -16,6 +16,8 @@
     <p class="author__links">
       <a href="//gryaznoff.com">Personal webpage</a>
       <a href="//facebook.com/vyacheslav.gryaznov">Facebook</a>
+      <a href="//youtube.com/VyacheslavGryaznovPiano">YouTube</a>
+      <a href="//mailto:gryaznov.studio@gmail.com">@email</a>
     </p>
   </div>
 </template>
@@ -37,7 +39,7 @@ export default {
 <style lang="scss">
 .author {
   margin: 0 auto;
-  max-width: 500px;
+  max-width: 100%;
   text-align: center;
   padding: calc(var(--space) / 2) 0;
 
@@ -53,7 +55,7 @@ export default {
   }
 
   &__site-title {
-    font-size: 1.5em;
+    font-size: 2rem;
   }
 
   &__links {

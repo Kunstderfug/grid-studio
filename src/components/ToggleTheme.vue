@@ -76,9 +76,11 @@ export default {
 
   &:hover {
     opacity: 0.8;
+    border: 0;
   }
   &:focus {
     outline: none;
+    border: 0;
   }
 }
 </style>

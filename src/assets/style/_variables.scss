@@ -1,19 +1,19 @@
 // Default variables
 html {
-  --base-font-size: 20px;
+  --base-font-size: 16px;
 }
 
 // Light default theme
 body {
-  --bg-color: #ffffff;
-  --bg-content-color: #fff;
+  --bg-color: #e7e7e7;
+  --bg-content-color: rgb(255, 255, 255);
   --bg-code: #fffbf3;
   --body-color: #444;
   --title-color: #111;
   --eq-color: rgb(255, 251, 232);
   //   --link-color: #b87023;
-  --link-color: #af0606;
-  --link-color-p: #b87023;
+  --link-color: #8f5c2a;
+  --link-color-p: #47ac4c;
   --border-color: rgba(0, 0, 0, 0);
   --space: 2.5rem;
   --content-width: 1070px;
@@ -33,14 +33,12 @@ body {
 }
 
 // Override variables for Dark theme
-body[data-theme='dark'] {
-  --bg-color: #140e2b;
-  //   --bg-color: #0d2538;
-  --bg-content-color: #3a1f83;
+body[data-theme="dark"] {
+  --bg-color: #242424;
+  --bg-content-color: #2b2a2e;
   --bg-code: rgba(0, 0, 0, 0.3);
   --border-color: rgba(255, 255, 255, 0.1);
   --body-color: #ced8de;
   --title-color: #fff;
-  --link-color: #b87023;
-  --link-color-p: #47ac4c;
+  --link-color: #ce863e;
 }

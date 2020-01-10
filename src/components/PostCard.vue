@@ -36,9 +36,8 @@ export default {
 
 <style lang="scss">
 .post-card {
-  margin-bottom: calc(var(--space) -1);
+  margin-bottom: 2rem;
   position: relative;
-  // border: 1px solid var(--link-color-p);
 
   &__header {
     margin-left: calc(var(--space) * -1);
@@ -46,15 +45,18 @@ export default {
     margin-bottom: calc(var(--space) / 2);
     margin-top: calc(var(--space) * -1);
     overflow: hidden;
-    // border-radius: var(--radius) var(--radius) 0 0;
 
     &:empty {
-      display: none;
+      display: block;
+      margin-top: -2rem;
     }
   }
 
   &__image {
     min-width: 100%;
+    &:not:first-child {
+      padding-top: 2rem;
+    }
   }
 
   &__title {
@@ -72,6 +74,7 @@ export default {
   &__tags {
     z-index: 1;
     position: relative;
+    margin-bottom: 1rem;
   }
 
   &__link {
