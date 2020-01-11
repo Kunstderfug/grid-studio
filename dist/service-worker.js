@@ -286,28 +286,28 @@ self.__precacheManifest = [
     "revision": "58562ccce683f1fa20f0b08d84a700bb"
   },
   {
-    "url": "tag/studio",
-    "revision": "20ae2896c394c0ba0e3702516c5dd50c"
+    "url": "tag/giveaway",
+    "revision": "99c780b68c8f39be39e435b536704b38"
   },
   {
     "url": "tag/recording",
     "revision": "8e0c87119843f4fa46e06137262da462"
   },
   {
+    "url": "tag/studio",
+    "revision": "20ae2896c394c0ba0e3702516c5dd50c"
+  },
+  {
     "url": "tag/audition",
     "revision": "9431c2f3b9cc9768e00e1a6b5b2ccd3c"
   },
   {
-    "url": "tag/giveaway",
-    "revision": "99c780b68c8f39be39e435b536704b38"
+    "url": "giveaway-recordings",
+    "revision": "237b6905e194810011c8b281094ca697"
   },
   {
     "url": "welcome",
     "revision": "36cfabe3ef8b2b17cc27257877c3fbb1"
-  },
-  {
-    "url": "giveaway-recordings",
-    "revision": "237b6905e194810011c8b281094ca697"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
