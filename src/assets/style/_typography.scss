@@ -12,7 +12,6 @@ body {
 
 p {
   margin-bottom: 1.25em;
-  transition: color 3s, background-color 3s;
 }
 
 h1,
@@ -20,7 +19,6 @@ h2,
 h3,
 // h4,
 h5 {
-  transition: color 3s;
   text-transform: uppercase;
   color: var(--title-color);
   margin: 1.75rem 0 1rem;

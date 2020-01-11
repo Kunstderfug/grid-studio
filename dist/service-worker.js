@@ -27,47 +27,47 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "bcad4fdedd4e2dbc791ce6723cb08420"
+    "revision": "01c4deffbddd351d294621d263cb4460"
   },
   {
     "url": "404/index.html",
-    "revision": "bcad4fdedd4e2dbc791ce6723cb08420"
+    "revision": "01c4deffbddd351d294621d263cb4460"
   },
   {
-    "url": "assets/css/0.styles.af240372.css",
-    "revision": "233b5673856c723b025eaa6f48cc9881"
+    "url": "assets/css/0.styles.0e794f54.css",
+    "revision": "65a0f30fba7de919c023527d2f8d8edd"
   },
   {
     "url": "assets/data/404/index.json",
-    "revision": "82e11c51d9c4e04ad3b143c409cc15cf"
+    "revision": "856782ed8f03e65b811cb7153d476c53"
   },
   {
     "url": "assets/data/giveaway-recordings/index.json",
-    "revision": "82132a6b08016bb6f95dea6757be55f0"
+    "revision": "7ce7e1761f051fb48b2b18bdd5135ca7"
   },
   {
     "url": "assets/data/index.json",
-    "revision": "dca466c57d3c3b976d8aa20923f8cd11"
+    "revision": "e2225202aa06b13a7059fdcbd8925258"
   },
   {
     "url": "assets/data/tag/audition/index.json",
-    "revision": "3a7747786faf916a95211ee05abd9993"
+    "revision": "865b807af07661c120ec988e994bd6ce"
   },
   {
     "url": "assets/data/tag/giveaway/index.json",
-    "revision": "730e9544be8592e020a4bd5b1991cc19"
+    "revision": "4f83c1c5934d2d4c314d55a15b9daa58"
   },
   {
     "url": "assets/data/tag/recording/index.json",
-    "revision": "956872cac207b92de92b20cc925321f5"
+    "revision": "1f92270babeda8b2495b6d61fce6e351"
   },
   {
     "url": "assets/data/tag/studio/index.json",
-    "revision": "be546e3d573a22a16be4e704b82cd6cf"
+    "revision": "748765fbcfef2c375beaab09effe703d"
   },
   {
     "url": "assets/data/welcome/index.json",
-    "revision": "671175039d2fe8b5cf4c3b63cbdebcb0"
+    "revision": "1a1e4fc8f0ddd2f36785ba6bb1cf44fa"
   },
   {
     "url": "assets/img/coffee.00e58597.svg",
@@ -251,11 +251,11 @@ self.__precacheManifest = [
   },
   {
     "url": "giveaway-recordings/index.html",
-    "revision": "a82189b4aae76ad9ba37566bef1534a9"
+    "revision": "8ab2501f0594e0909e10970b349f4732"
   },
   {
     "url": "index.html",
-    "revision": "044a2f1653855b8f9de99f0c56272809"
+    "revision": "179a618125e0acf18c2aaf8a7c1680d8"
   },
   {
     "url": "manifest.json",
@@ -263,51 +263,51 @@ self.__precacheManifest = [
   },
   {
     "url": "tag/audition/index.html",
-    "revision": "95f441e043d2850f91740f4f65ec1c36"
+    "revision": "dc8eb75a17566df92077505f81ad2229"
   },
   {
     "url": "tag/giveaway/index.html",
-    "revision": "56bec6b9216e4ca11283c082077115db"
+    "revision": "ea0232e92c612a2092e1f03f6d94d49f"
   },
   {
     "url": "tag/recording/index.html",
-    "revision": "5503b6a052c80cc282b58f5103937e72"
+    "revision": "3aba87cab02e2dedcdc49b73a6fdfc31"
   },
   {
     "url": "tag/studio/index.html",
-    "revision": "4d2de9d7c4dde776f75b887f16bc999c"
+    "revision": "98f2e6f56a7e14651814e7c7b9c0f2fb"
   },
   {
     "url": "welcome/index.html",
-    "revision": "06d5ffd9bb2e11ea16b7b9317fb94250"
+    "revision": "01dbb98d570eb1d9d0315d5af7b39ecc"
   },
   {
     "url": "404",
     "revision": "58562ccce683f1fa20f0b08d84a700bb"
   },
   {
-    "url": "tag/studio",
-    "revision": "20ae2896c394c0ba0e3702516c5dd50c"
+    "url": "tag/giveaway",
+    "revision": "99c780b68c8f39be39e435b536704b38"
   },
   {
     "url": "tag/recording",
     "revision": "8e0c87119843f4fa46e06137262da462"
   },
   {
+    "url": "tag/studio",
+    "revision": "20ae2896c394c0ba0e3702516c5dd50c"
+  },
+  {
     "url": "tag/audition",
     "revision": "9431c2f3b9cc9768e00e1a6b5b2ccd3c"
   },
   {
-    "url": "tag/giveaway",
-    "revision": "99c780b68c8f39be39e435b536704b38"
+    "url": "giveaway-recordings",
+    "revision": "237b6905e194810011c8b281094ca697"
   },
   {
     "url": "welcome",
     "revision": "36cfabe3ef8b2b17cc27257877c3fbb1"
-  },
-  {
-    "url": "giveaway-recordings",
-    "revision": "237b6905e194810011c8b281094ca697"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
