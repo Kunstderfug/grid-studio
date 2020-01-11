@@ -28,6 +28,24 @@ module.exports = {
           }
         }
       }
+    },
+    {
+      use: 'gridsome-plugin-pwa',
+      options: {
+        title: 'Vyacheslav Gryaznov Studio',
+        startUrl: '/',
+        display: 'standalone',
+        statusBarStyle: 'default',
+        manifestPath: 'manifest.json',
+        serviceWorkerPath: 'service-worker.js',
+        cachedFileTypes: 'js,json,css,html,png,jpg,jpeg,svg',
+        shortName: 'VG Studio',
+        themeColor: '#666600',
+        backgroundColor: '#ffffff',
+        icon: './static/logo-light.svg', // must be provided
+        msTileImage: '',
+        msTileColor: '#666600'
+      }
     }
   ],
 
