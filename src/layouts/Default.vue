@@ -79,13 +79,13 @@ hr {
 
 @media screen and (min-width: 768px) {
   .main {
-    padding: 3rem;
+    padding: 0 3rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .main {
-    padding: 6rem;
+    padding: 0 6rem;
   }
 }
 

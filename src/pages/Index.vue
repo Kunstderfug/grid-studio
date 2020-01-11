@@ -47,3 +47,17 @@ export default {
   }
 };
 </script>
+
+<style lang="scss">
+.posts {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
+@media screen and (min-width: 650px) {
+  .posts {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+</style>
