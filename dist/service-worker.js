@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "f45fd3304d7e16bdabe6cc8698bf0eeb"
+    "revision": "51bf64fac6d140efc0cdab005bffe746"
   },
   {
     "url": "404/index.html",
-    "revision": "f45fd3304d7e16bdabe6cc8698bf0eeb"
+    "revision": "51bf64fac6d140efc0cdab005bffe746"
   },
   {
     "url": "assets/css/0.styles.d6440ba2.css",
@@ -39,39 +39,39 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/data/404/index.json",
-    "revision": "2c33efa2b84f87c6e94abb1d24b6597e"
+    "revision": "effbc38552fbc3103c5ac9933635087c"
   },
   {
     "url": "assets/data/giveaway-recordings/index.json",
-    "revision": "df30cb95b41273020931f4efcdcf37d7"
+    "revision": "3907196c41fcdc62604795e3227fe546"
   },
   {
     "url": "assets/data/index.json",
-    "revision": "aa60310192d4cb4816cc659df7ae928c"
+    "revision": "e4faa045bc95cb45c5152b0e828fb11d"
   },
   {
     "url": "assets/data/tag/audition/index.json",
-    "revision": "006f4a6b0252bdac34f7a705748c8d3e"
+    "revision": "4b67df24d08ce13b51201e42edd9ccb1"
   },
   {
     "url": "assets/data/tag/giveaway/index.json",
-    "revision": "e3795a59ac91f2dfdfd6f61fa18ba517"
+    "revision": "9b770360d1f2d4ece192e89ecad847ce"
   },
   {
     "url": "assets/data/tag/recording/index.json",
-    "revision": "c3b7fc74a787fe899efb74cf0b915ed8"
+    "revision": "0bf76698e389d060cf6bf474657092a0"
   },
   {
     "url": "assets/data/tag/studio/index.json",
-    "revision": "0b04fbc5768f51da9afb042c5aba6002"
+    "revision": "892b5b8e43d5111c5c03a0c39706d134"
   },
   {
     "url": "assets/data/welcome/index.json",
-    "revision": "b63555eb9acab35ff83a6314dab01ebc"
+    "revision": "62b065200e5f521e2c1d3e194bd40464"
   },
   {
-    "url": "assets/js/app.06c8e27a.js",
-    "revision": "3a350293eb6f8dddc0ba9cd149f23100"
+    "url": "assets/js/app.6024c73a.js",
+    "revision": "6582d17bdfee960ad533e16029104a97"
   },
   {
     "url": "assets/js/page--node-modules-gridsome-app-pages-404-vue.e4bee504.js",
@@ -90,40 +90,40 @@ self.__precacheManifest = [
     "revision": "cd3b2f60c71e6b16809a18e1b104fdba"
   },
   {
-    "url": "assets/static/favicon.1539b60.9bb7ffafafc09ac851d81afb65b8ef59.png",
-    "revision": "528be7fc357e86e472eb90c5d06e45dc"
+    "url": "assets/static/favicon.1539b60.d613fe2a07622ac4e16c1baa3c0e54cd.png",
+    "revision": "87ebcf39f80258fb3b0f52c27d154c76"
   },
   {
-    "url": "assets/static/favicon.62d22cb.9bb7ffafafc09ac851d81afb65b8ef59.png",
-    "revision": "ad421981f2b44e3acd7d3a62216121c4"
+    "url": "assets/static/favicon.62d22cb.d613fe2a07622ac4e16c1baa3c0e54cd.png",
+    "revision": "6fa9f054b75364cabd631e7fed0874b7"
   },
   {
-    "url": "assets/static/favicon.7b22250.9bb7ffafafc09ac851d81afb65b8ef59.png",
-    "revision": "792bff5e8c82b79551825020d8e1ef23"
+    "url": "assets/static/favicon.7b22250.d613fe2a07622ac4e16c1baa3c0e54cd.png",
+    "revision": "6c8da68950ac98d24b562fad57124765"
   },
   {
-    "url": "assets/static/favicon.ac8d93a.9bb7ffafafc09ac851d81afb65b8ef59.png",
-    "revision": "334b56425dfcc146103ee3782ec52c08"
+    "url": "assets/static/favicon.ac8d93a.d613fe2a07622ac4e16c1baa3c0e54cd.png",
+    "revision": "11306827fcaebcbbbb534ad419f9f070"
   },
   {
-    "url": "assets/static/favicon.b9532cc.9bb7ffafafc09ac851d81afb65b8ef59.png",
-    "revision": "ca3a37aacaa9c61829dc1aa0968a5abf"
+    "url": "assets/static/favicon.b9532cc.d613fe2a07622ac4e16c1baa3c0e54cd.png",
+    "revision": "78c88e2c2490e1cdaae40bf1038e280c"
   },
   {
-    "url": "assets/static/favicon.ce0531f.9bb7ffafafc09ac851d81afb65b8ef59.png",
-    "revision": "18c8ed18f36ee2d4e9c68e9cb7b5437c"
+    "url": "assets/static/favicon.ce0531f.d613fe2a07622ac4e16c1baa3c0e54cd.png",
+    "revision": "4eb39e5e1230895d750af436f3057298"
   },
   {
-    "url": "assets/static/favicon.dc0cdc5.9bb7ffafafc09ac851d81afb65b8ef59.png",
-    "revision": "e3aac802cecf084e741fabb058f2ec1b"
+    "url": "assets/static/favicon.dc0cdc5.d613fe2a07622ac4e16c1baa3c0e54cd.png",
+    "revision": "a0b2648714ed731bc54b4d2b9d82c29d"
   },
   {
-    "url": "assets/static/favicon.f22e9f3.9bb7ffafafc09ac851d81afb65b8ef59.png",
-    "revision": "055aaf279e4d282a73be160a353c13c2"
+    "url": "assets/static/favicon.f22e9f3.d613fe2a07622ac4e16c1baa3c0e54cd.png",
+    "revision": "2ddaca27eeca461b264ad3b61e672ab5"
   },
   {
-    "url": "assets/static/logo-light.svg",
-    "revision": "7d006fa0b95ed51f1ee100d393ce8ba0"
+    "url": "assets/static/favicon.png",
+    "revision": "d613fe2a07622ac4e16c1baa3c0e54cd"
   },
   {
     "url": "assets/static/photo-author.e6b6009.ec35e9acb563ed9b0647882ef034f654.jpg",
@@ -243,39 +243,35 @@ self.__precacheManifest = [
   },
   {
     "url": "giveaway-recordings/index.html",
-    "revision": "674591792ffdcdabb18eda9bd36243aa"
+    "revision": "9bbe23aedcca82437a15e4c83d9ee85d"
   },
   {
     "url": "index.html",
-    "revision": "c4e2aae5c42692001d7c051eaf2a0efb"
-  },
-  {
-    "url": "logo-light.svg",
-    "revision": "7d006fa0b95ed51f1ee100d393ce8ba0"
+    "revision": "8576b10ad5f040e884f5a9c0ee520bee"
   },
   {
     "url": "manifest.json",
-    "revision": "d1c8ca7d232893e4f595de1fa1d55bce"
+    "revision": "53c3f1747480882b56d9eb2a03f72bbd"
   },
   {
     "url": "tag/audition/index.html",
-    "revision": "ec69444e77551cd8849719b65792abc0"
+    "revision": "fc28269306196d66854f39e4019e2c9d"
   },
   {
     "url": "tag/giveaway/index.html",
-    "revision": "16691c51df5d033f15f7658aa4e1b5b9"
+    "revision": "ea4ce5d0169806c7a33b4f0adf99fd80"
   },
   {
     "url": "tag/recording/index.html",
-    "revision": "aa72dee566a0b72892b3c353038d1dd7"
+    "revision": "77f948b2cdf30e6bc6926c23d0f0f793"
   },
   {
     "url": "tag/studio/index.html",
-    "revision": "5feee32e461bab49a62da6b3df6ceb83"
+    "revision": "041cd70c77b15d9e852e75dfb2a5bad4"
   },
   {
     "url": "welcome/index.html",
-    "revision": "138f9409b116093c7e83bfeff22b88b4"
+    "revision": "69343756046b6361e4958df0de84721a"
   },
   {
     "url": "404",

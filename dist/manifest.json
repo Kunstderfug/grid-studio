@@ -7,9 +7,9 @@
   "background_color": "#ffffff",
   "icons": [
     {
-      "src": "assets\\static\\logo-light.svg",
-      "sizes": "200x200",
-      "type": "image/svg"
+      "src": "assets\\static\\favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ]
 }

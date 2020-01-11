@@ -42,7 +42,7 @@ module.exports = {
         shortName: 'VG Studio',
         themeColor: '#666600',
         backgroundColor: '#ffffff',
-        icon: './static/logo-light.svg', // must be provided
+        icon: './src/favicon.png', // must be provided
         msTileImage: '',
         msTileColor: '#666600'
       }
