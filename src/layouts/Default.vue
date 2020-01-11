@@ -17,10 +17,10 @@
       <span class="footer__copyright">V. Gryaznov © {{ new Date().getFullYear() }}</span>
       <br />
       <span class="footer__links">
-        <a href="//gryaznoff.com" target="_blank">Webpage</a>
-        <a href="//facebook.com/vyacheslav.gryaznov" target="_blank">Facebook</a>
-        <a href="//youtube.com/VyacheslavGryaznovPiano" target="_blank">YouTube</a>
-        <a href="//mailto:gryaznov.studio@gmail.com" target="_blank">@email</a>
+        <a href="//gryaznoff.com" target="_blank" rel="noreferrer">Webpage</a>
+        <a href="//facebook.com/vyacheslav.gryaznov" target="_blank" rel="noreferrer">Facebook</a>
+        <a href="//youtube.com/VyacheslavGryaznovPiano" target="_blank" rel="noreferrer">YouTube</a>
+        <a href="//mailto:gryaznov.studio@gmail.com" target="_blank" rel="noreferrer">@email</a>
       </span>
     </footer>
   </div>
