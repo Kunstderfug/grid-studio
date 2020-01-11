@@ -27,47 +27,47 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "01c4deffbddd351d294621d263cb4460"
+    "revision": "de3b683676b19932b977522bedde02e6"
   },
   {
     "url": "404/index.html",
-    "revision": "01c4deffbddd351d294621d263cb4460"
+    "revision": "de3b683676b19932b977522bedde02e6"
   },
   {
-    "url": "assets/css/0.styles.0e794f54.css",
-    "revision": "65a0f30fba7de919c023527d2f8d8edd"
+    "url": "assets/css/0.styles.4417de89.css",
+    "revision": "f0ac29af0ba622dbf8467b2b67dd07d1"
   },
   {
     "url": "assets/data/404/index.json",
-    "revision": "856782ed8f03e65b811cb7153d476c53"
+    "revision": "0752baa6f331c47325472fd113dcdd1e"
   },
   {
     "url": "assets/data/giveaway-recordings/index.json",
-    "revision": "7ce7e1761f051fb48b2b18bdd5135ca7"
+    "revision": "c78b2a7080a326f8eabc6f0dcf757818"
   },
   {
     "url": "assets/data/index.json",
-    "revision": "e2225202aa06b13a7059fdcbd8925258"
+    "revision": "208325485d386a28def81a94dad713bf"
   },
   {
     "url": "assets/data/tag/audition/index.json",
-    "revision": "865b807af07661c120ec988e994bd6ce"
+    "revision": "15d4c9e264be1a72082b0eadca8f8963"
   },
   {
     "url": "assets/data/tag/giveaway/index.json",
-    "revision": "4f83c1c5934d2d4c314d55a15b9daa58"
+    "revision": "cce4a4dd1dae3065828cc7df8db88b16"
   },
   {
     "url": "assets/data/tag/recording/index.json",
-    "revision": "1f92270babeda8b2495b6d61fce6e351"
+    "revision": "da0f09ce6a0a65f42ea962da7a9e9f68"
   },
   {
     "url": "assets/data/tag/studio/index.json",
-    "revision": "748765fbcfef2c375beaab09effe703d"
+    "revision": "2e825d3012f684ba4bbdc5f9660a9af4"
   },
   {
     "url": "assets/data/welcome/index.json",
-    "revision": "1a1e4fc8f0ddd2f36785ba6bb1cf44fa"
+    "revision": "859b894e15d156f1fe0b88711a6cfac6"
   },
   {
     "url": "assets/img/coffee.00e58597.svg",
@@ -78,8 +78,8 @@ self.__precacheManifest = [
     "revision": "a8d127aae36b4ca1f3a800cdad093ce8"
   },
   {
-    "url": "assets/js/app.decc4c76.js",
-    "revision": "b970a2b1be61eb52141e9fec47d69708"
+    "url": "assets/js/app.bd4a1278.js",
+    "revision": "a08d327eee1322eaa7e2f9fdc0944dfb"
   },
   {
     "url": "assets/js/page--node-modules-gridsome-app-pages-404-vue.41bd1842.js",
@@ -251,11 +251,11 @@ self.__precacheManifest = [
   },
   {
     "url": "giveaway-recordings/index.html",
-    "revision": "8ab2501f0594e0909e10970b349f4732"
+    "revision": "0e55d7b6f0383236080d37b08593fe7f"
   },
   {
     "url": "index.html",
-    "revision": "179a618125e0acf18c2aaf8a7c1680d8"
+    "revision": "c06bb6a8b934f53f3d75038388d70a84"
   },
   {
     "url": "manifest.json",
@@ -263,51 +263,51 @@ self.__precacheManifest = [
   },
   {
     "url": "tag/audition/index.html",
-    "revision": "dc8eb75a17566df92077505f81ad2229"
+    "revision": "8db3d6cf3d56b909a9dbc90375e58fe4"
   },
   {
     "url": "tag/giveaway/index.html",
-    "revision": "ea0232e92c612a2092e1f03f6d94d49f"
+    "revision": "3cdce59ff0eb739368af50192431cdb4"
   },
   {
     "url": "tag/recording/index.html",
-    "revision": "3aba87cab02e2dedcdc49b73a6fdfc31"
+    "revision": "933bf94e2a909c254c9d59758976a444"
   },
   {
     "url": "tag/studio/index.html",
-    "revision": "98f2e6f56a7e14651814e7c7b9c0f2fb"
+    "revision": "1b5a52a367d80b0795a8c06b2c98de95"
   },
   {
     "url": "welcome/index.html",
-    "revision": "01dbb98d570eb1d9d0315d5af7b39ecc"
+    "revision": "4a7492e80d850d5b77ffa92c8897883e"
   },
   {
     "url": "404",
     "revision": "58562ccce683f1fa20f0b08d84a700bb"
   },
   {
-    "url": "tag/giveaway",
-    "revision": "99c780b68c8f39be39e435b536704b38"
+    "url": "tag/studio",
+    "revision": "20ae2896c394c0ba0e3702516c5dd50c"
   },
   {
     "url": "tag/recording",
     "revision": "8e0c87119843f4fa46e06137262da462"
   },
   {
-    "url": "tag/studio",
-    "revision": "20ae2896c394c0ba0e3702516c5dd50c"
-  },
-  {
     "url": "tag/audition",
     "revision": "9431c2f3b9cc9768e00e1a6b5b2ccd3c"
   },
   {
-    "url": "giveaway-recordings",
-    "revision": "237b6905e194810011c8b281094ca697"
+    "url": "tag/giveaway",
+    "revision": "99c780b68c8f39be39e435b536704b38"
   },
   {
     "url": "welcome",
     "revision": "36cfabe3ef8b2b17cc27257877c3fbb1"
+  },
+  {
+    "url": "giveaway-recordings",
+    "revision": "237b6905e194810011c8b281094ca697"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});

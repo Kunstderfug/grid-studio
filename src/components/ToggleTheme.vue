@@ -33,6 +33,8 @@ export default {
 
 <style lang="scss">
 .toggle-theme {
+  margin: 1rem;
+  padding: 0;
   background-color: transparent;
   border: 0;
   color: var(--body-color);
@@ -47,7 +49,12 @@ export default {
     border: 0;
   }
   img {
+    margin-bottom: 0;
     transition: opacity 1s;
+    &:focus,
+    &:active {
+      outline: none;
+    }
   }
 }
 </style>
