@@ -1,7 +1,17 @@
 .text-center {
-	text-align: center;
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+  padding: 1rem 0;
 }
 
+@media only screen and (min-width: 1024px) {
+  .text-right {
+    text-align: right;
+    margin-right: 2rem;
+  }
+}
 .space-bottom {
-	margin-bottom: var(--space);
+  margin-bottom: var(--space);
 }

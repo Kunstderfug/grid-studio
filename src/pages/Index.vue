@@ -5,7 +5,11 @@
 
     <!-- List posts -->
     <div class="posts">
-      <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node" />
+      <PostCard
+        v-for="edge in $page.posts.edges"
+        :key="edge.node.id"
+        :post="edge.node"
+      />
     </div>
   </Layout>
 </template>
@@ -34,8 +38,8 @@ query {
 </page-query>
 
 <script>
-import Author from "~/components/Author.vue";
-import PostCard from "~/components/PostCard.vue";
+import Author from '~/components/Author.vue';
+import PostCard from '~/components/PostCard.vue';
 
 export default {
   components: {
@@ -43,7 +47,7 @@ export default {
     PostCard
   },
   metaInfo: {
-    title: "Welcome"
+    title: 'Welcome'
   }
 };
 </script>
@@ -52,12 +56,19 @@ export default {
 .posts {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 2rem;
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 768px) {
   .posts {
     grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .posts {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4rem;
   }
 }
 </style>

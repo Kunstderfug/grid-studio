@@ -9,15 +9,19 @@
       blur="5"
     />
 
-    <h1 v-if="showTitle" class="author__site-title">{{ $static.metadata.siteName }}</h1>
+    <h1 v-if="showTitle" class="author__site-title">{{
+      $static.metadata.siteName
+    }}</h1>
 
     <p class="author__intro">Welcome to my piano and recording studio.</p>
 
     <p class="author__links">
-      <a href="//gryaznoff.com">Webpage</a>
-      <a href="//facebook.com/vyacheslav.gryaznov">Facebook</a>
-      <a href="//youtube.com/VyacheslavGryaznovPiano">YouTube</a>
-      <a href="//mailto:gryaznov.studio@gmail.com">@email</a>
+      <a href="//gryaznoff.com" target="_blank">Webpage</a>
+      <a href="//facebook.com/vyacheslav.gryaznov" target="_blank">Facebook</a>
+      <a href="//youtube.com/VyacheslavGryaznovPiano" target="_blank"
+        >YouTube</a
+      >
+      <a href="//mailto:gryaznov.studio@gmail.com" target="_blank">@email</a>
     </p>
   </div>
 </template>
@@ -32,16 +36,18 @@ query {
 
 <script>
 export default {
-  props: ["showTitle"]
+  props: ['showTitle']
 };
 </script>
 
 <style lang="scss">
 .author {
   margin: 0 auto;
+  margin-top: -2rem;
   max-width: 100%;
   text-align: center;
   padding: calc(var(--space) / 2) 0;
+  margin-bottom: 1rem;
 
   &__image {
     border-radius: 100%;

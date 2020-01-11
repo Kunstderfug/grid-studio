@@ -1,5 +1,8 @@
 <template>
-  <div class="post-card content-box" :class="{'post-card--has-poster' : post.poster}">
+  <div
+    class="post-card content-box"
+    :class="{ 'post-card--has-poster': post.poster }"
+  >
     <div class="post-card__header">
       <g-image
         alt="Cover image"
@@ -21,15 +24,15 @@
 </template>
 
 <script>
-import PostMeta from "~/components/PostMeta";
-import PostTags from "~/components/PostTags";
+import PostMeta from '~/components/PostMeta';
+import PostTags from '~/components/PostTags';
 
 export default {
   components: {
     PostMeta,
     PostTags
   },
-  props: ["post"]
+  props: ['post']
 };
 </script>
 
@@ -40,10 +43,10 @@ export default {
   border-bottom: 1px solid;
 
   &__header {
-    margin-left: calc(var(--space) * -1);
-    margin-right: calc(var(--space) * -1);
-    margin-bottom: calc(var(--space) / 2);
-    margin-top: calc(var(--space) * -1);
+    // margin-left: calc(var(--space) * -1);
+    // margin-right: calc(var(--space) * -1);
+    // margin-bottom: calc(var(--space) / 2);
+    // margin-top: calc(var(--space) * -1);
     overflow: hidden;
 
     &:empty {
@@ -53,7 +56,7 @@ export default {
   }
 
   &__image {
-    min-width: 100%;
+    max-width: 100%;
     &:not:first-child {
       padding-top: 2rem;
     }
@@ -70,6 +73,9 @@ export default {
   &:hover {
     // transform: translateY(-5px);
     // box-shadow: 1px 10px 30px 0 rgba(0,0,0,.1);
+  }
+  &__content {
+    padding: 1rem;
   }
 
   &__tags {

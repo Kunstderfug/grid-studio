@@ -2,10 +2,10 @@
 title: Welcome
 date: 2020-01-05
 published: true
-tags: ["studio", "recording", "audition"]
-cover_image: "./images/studio-steinway-1.jpg"
+tags: ['studio', 'recording', 'audition']
+cover_image: './images/studio-steinway-1.jpg'
 canonical_url: false
-description: "Everything about V. Gryaznov piano and recording studio."
+description: 'Welcome to my piano and recording studio. Click here if you want to know more.'
 ---
 
 <div style="text-align: center">
@@ -30,16 +30,16 @@ CD recording, producing and mastering.
 
 <div class="eq">
 
-I give piano lessons / consultations for professionals who need quick or detailed feedback with the possibility to record the lesson in HQ for your future reference. This optional recording is free of charge.
+I give piano lessons and consultations for professionals who need quick or detailed feedback with the possibility to record the lesson in HQ for your future reference.
+
+This optional recording is free of charge.
 
 One hour lesson - $100  
 Students - $70
 
-The schedule depends on my availability, see my [concerts](/concerts) page.
+The schedule depends on my availability, see my [concerts](gryaznoff.com/concerts) page.
 
 </div>
-
----
 
 ## Pricing
 
@@ -72,15 +72,17 @@ This option is including 4 hours of recording at studio.
 
 </div>
 
+<div class="text-center">
+
 Please use [contact form](#booking) below or [@email](mailto:gryaznov.studio@gmail.com) to book your time or ask a question.
 
-<div style="text-align: right" class="hidden">
+</div>
+
+<div class="text-right hidden">
 
 [back to top](#intro)
 
 </div>
-
----
 
 ## Equipment
 
@@ -96,7 +98,8 @@ Concert full grand Steinway D (Hamburg)
 
 <div class="eq">
 
-Panasonic GH4 hybrid video/photo camera  
+Panasonic GH4 hybrid video/photo camera
+
 Blackmagic Pocket Cinema Camera 4K
 
 </div>
@@ -115,13 +118,11 @@ Oktava professional condenser microphones (6)
 
 </div>
 
-<div style="text-align: right" class="hidden">
+<div class="text-right hidden">
 
 [back to top](#intro)
 
 </div>
-
----
 
 ## Gallery
 
@@ -140,8 +141,6 @@ Oktava professional condenser microphones (6)
 ![Piano studio](./../../src/assets/studio/studio-6.jpg)
 
 </div>
-
----
 
 ## Booking
 

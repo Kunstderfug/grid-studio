@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <header class="header">
+    <header class="header" id="intro">
       <div class="header__left">
         <Logo v-if="showLogo" />
       </div>
@@ -17,10 +17,10 @@
       <span class="footer__copyright">V. Gryaznov © {{ new Date().getFullYear() }}</span>
       <br />
       <span class="footer__links">
-        <a href="//gryaznoff.com">Webpage</a>
-        <a href="//facebook.com/vyacheslav.gryaznov">Facebook</a>
-        <a href="//youtube.com/VyacheslavGryaznovPiano">YouTube</a>
-        <a href="//mailto:gryaznov.studio@gmail.com">@email</a>
+        <a href="//gryaznoff.com" target="_blank">Webpage</a>
+        <a href="//facebook.com/vyacheslav.gryaznov" target="_blank">Facebook</a>
+        <a href="//youtube.com/VyacheslavGryaznovPiano" target="_blank">YouTube</a>
+        <a href="//mailto:gryaznov.studio@gmail.com" target="_blank">@email</a>
       </span>
     </footer>
   </div>
@@ -73,23 +73,29 @@ hr {
 .main {
   width: 100%;
   margin: 0 auto;
+  margin: -1rem auto 2rem auto;
   // padding: 1.5vw 15px 0;
-  padding: 0.7rem;
+  padding: 1.3rem;
 }
 
 @media screen and (min-width: 768px) {
   .main {
-    padding: 0 3rem;
+    padding: 0 5rem;
+    min-height: calc(100vh - 10rem);
   }
 }
 
 @media screen and (min-width: 1024px) {
   .main {
+    max-width: calc(var(--content-width) * 1.5);
+    min-height: calc(100vh - 12rem);
     padding: 0 6rem;
   }
 }
 
 .footer {
+  height: auto;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -108,6 +114,19 @@ hr {
   }
   hr {
     border: 1px solid var(--link-color);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 0;
+    margin-top: -0.7rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding: calc(var(--space) / 2);
   }
 }
 </style>

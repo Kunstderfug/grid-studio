@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="post-title" id="intro">
+    <div class="post-title">
       <h1 class="post-title__text">{{ $page.post.title }}</h1>
 
       <PostMeta :post="$page.post" />
@@ -12,12 +12,13 @@
       </div>
 
       <div class="post__content" v-html="$page.post.content" />
-      <div style="text-align: right">
-        <a href="#intro">back to top</a>
-      </div>
-
-      <div class="post__footer">
-        <PostTags :post="$page.post" />
+      <div class="grid-wrapper">
+        <div class="post__footer">
+          <PostTags :post="$page.post" />
+        </div>
+        <div class="text-right">
+          <a href="#intro">back to top</a>
+        </div>
       </div>
     </div>
 
@@ -80,10 +81,10 @@ query Post ($id: ID!) {
 }
 
 .post {
+  background: var(--bg-color);
   &__header {
-    width: calc(100% + var(--space) * 2);
-    margin-left: calc(var(--space) * -1);
-    margin-top: calc(var(--space) * -1);
+    width: 100%;
+    margin: 0 auto;
     margin-bottom: calc(var(--space) / 2);
     overflow: hidden;
 
@@ -99,6 +100,7 @@ query Post ($id: ID!) {
   &__content {
     h2:first-child {
       margin-top: 0;
+      padding: 0;
     }
 
     p:first-of-type {
@@ -107,11 +109,20 @@ query Post ($id: ID!) {
     }
 
     img {
-      width: calc(100% + var(--space) * 2);
-      margin-left: calc(var(--space) * -1);
+      width: 100%;
+      margin: 0 auto;
       display: block;
       max-width: none;
     }
+  }
+
+  h2,
+  h4 {
+    padding: 1rem;
+  }
+
+  h2 {
+    border-bottom: 1px solid;
   }
 }
 
@@ -125,5 +136,16 @@ query Post ($id: ID!) {
 
 .post-author {
   margin-top: calc(var(--space) / 2);
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+@media only screen and (min-width: 1024px) {
+  .hidden {
+    display: none;
+  }
 }
 </style>
