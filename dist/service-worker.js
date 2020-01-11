@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "202192e084c8493eb46d325ec7da4077"
+    "revision": "7d7da0088ca0815d6cf670dbcd42a607"
   },
   {
     "url": "404/index.html",
-    "revision": "202192e084c8493eb46d325ec7da4077"
+    "revision": "7d7da0088ca0815d6cf670dbcd42a607"
   },
   {
     "url": "assets/css/0.styles.76cd0b84.css",
@@ -39,35 +39,35 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/data/404/index.json",
-    "revision": "5403f9dd146c73a0c897a36196fbd140"
+    "revision": "05aa55310c3d59063341d53f812b0d76"
   },
   {
     "url": "assets/data/giveaway-recordings/index.json",
-    "revision": "01b9a3347fd479be53054ff8a2a2a2fc"
+    "revision": "12fc9164fa04d4f5aa86569dd7bf31ef"
   },
   {
     "url": "assets/data/index.json",
-    "revision": "c6e498d5d027be1d28721f513d262535"
+    "revision": "31e13b9f7fd5fc7c65e2990211f81d51"
   },
   {
     "url": "assets/data/tag/audition/index.json",
-    "revision": "adb61c89a1d718bf65da409132febb81"
+    "revision": "989f698944210f5d57302f8f23096e56"
   },
   {
     "url": "assets/data/tag/giveaway/index.json",
-    "revision": "baed086367db6f422b56f319512b9189"
+    "revision": "0cd5e6c00cd1bac4e7857b0f8d15a534"
   },
   {
     "url": "assets/data/tag/recording/index.json",
-    "revision": "771192b2fbf8307ac8ac7ebf41b7cde5"
+    "revision": "46abd66f79a485bd9e84d616d8890205"
   },
   {
     "url": "assets/data/tag/studio/index.json",
-    "revision": "ec692becf5a96e5ac8b33d1eb01ca01a"
+    "revision": "025693df5906cd82cfe7212ee281ed02"
   },
   {
     "url": "assets/data/welcome/index.json",
-    "revision": "013f8f8fc5859fff5b9681b8cae7e5af"
+    "revision": "2ededf70f207e039b1d89fe93b022cc6"
   },
   {
     "url": "assets/img/coffee.00e58597.svg",
@@ -78,23 +78,23 @@ self.__precacheManifest = [
     "revision": "a8d127aae36b4ca1f3a800cdad093ce8"
   },
   {
-    "url": "assets/js/app.a568a6b6.js",
-    "revision": "094d1321426bbdfc76c06fcb1de5792e"
+    "url": "assets/js/app.99af562d.js",
+    "revision": "393adce17f67343db1b04291af1a6ced"
   },
   {
     "url": "assets/js/page--node-modules-gridsome-app-pages-404-vue.41bd1842.js",
     "revision": "4ed4020a0973ee3f3d1abade1e300b65"
   },
   {
-    "url": "assets/js/page--src-pages-index-vue.a7e7be08.js",
+    "url": "assets/js/page--src-pages-index-vue.4797f684.js",
     "revision": "462c9e6eabcc7329e4d94827ae978bb0"
   },
   {
-    "url": "assets/js/page--src-templates-post-vue.35c9118b.js",
+    "url": "assets/js/page--src-templates-post-vue.cac70545.js",
     "revision": "c3604a30a79dfa9c7e27b48f9fe4b4ca"
   },
   {
-    "url": "assets/js/page--src-templates-tag-vue.9b0a9bf0.js",
+    "url": "assets/js/page--src-templates-tag-vue.45250918.js",
     "revision": "7e2fc26dfe553cfe6bed1683d46a762e"
   },
   {
@@ -251,11 +251,11 @@ self.__precacheManifest = [
   },
   {
     "url": "giveaway-recordings/index.html",
-    "revision": "96434947f7a1c651d99e39c87c6135bd"
+    "revision": "61b69a5c16dc33ece5d4d6c6558e2d32"
   },
   {
     "url": "index.html",
-    "revision": "ac93bf5f3c2b3b9a55d02d32d95982b3"
+    "revision": "e2cdd1091f9980bef3d3e3b63220069c"
   },
   {
     "url": "manifest.json",
@@ -263,23 +263,23 @@ self.__precacheManifest = [
   },
   {
     "url": "tag/audition/index.html",
-    "revision": "5eacb64d4b00356ef7402a9a3e50a6ac"
+    "revision": "f97be80db815a3f42e64e032ef4aadf4"
   },
   {
     "url": "tag/giveaway/index.html",
-    "revision": "35513189a158598da72cdf6132b4df8f"
+    "revision": "7bf27b67c9e6830e1a25e5d6a70a2614"
   },
   {
     "url": "tag/recording/index.html",
-    "revision": "90c327568b50a28a698c4cce17c67b49"
+    "revision": "7bc43a844b11f44a2ba41001c12cba63"
   },
   {
     "url": "tag/studio/index.html",
-    "revision": "5e3cd503e9932c0ffa96ea30ba6da08a"
+    "revision": "69fd1b2a1766bded4c2ec1c86561cd13"
   },
   {
     "url": "welcome/index.html",
-    "revision": "83d4d31f28fe12692161938f78843eb4"
+    "revision": "76e885b894f7579f86aabde3d9435490"
   },
   {
     "url": "404",

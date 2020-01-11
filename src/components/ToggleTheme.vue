@@ -5,8 +5,14 @@
     @click.prevent="toggleTheme"
     class="toggle-theme"
   >
-    <img v-if="darkTheme" src="../assets/images/milk.svg" width="30" height="30" />
-    <img v-else src="../assets/images/coffee.svg" width="30" height="30" />
+    <img
+      v-if="darkTheme"
+      src="../assets/images/milk.svg"
+      width="30"
+      height="30"
+      alt="light theme icon"
+    />
+    <img v-else src="../assets/images/coffee.svg" width="30" height="30" alt="dark theme icon" />
   </button>
 </template>
 
