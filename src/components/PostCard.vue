@@ -17,7 +17,6 @@
 
       <g-link class="post-card__link" :to="post.path">Link</g-link>
     </div>
-    <hr />
   </div>
 </template>
 
@@ -38,6 +37,7 @@ export default {
 .post-card {
   margin-bottom: 2rem;
   position: relative;
+  border-bottom: 1px solid;
 
   &__header {
     margin-left: calc(var(--space) * -1);
@@ -62,7 +62,8 @@ export default {
   &__title {
     display: inline-block;
     padding-bottom: 0.5rem;
-    margin-top: 0;
+    margin-top: -1rem;
+    margin-left: 0;
     color: var(--link-color);
   }
 

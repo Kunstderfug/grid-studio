@@ -13,12 +13,11 @@
     <main class="main">
       <slot />
     </main>
-
     <footer class="footer">
       <span class="footer__copyright">V. Gryaznov © {{ new Date().getFullYear() }}</span>
-      <hr />
+      <br />
       <span class="footer__links">
-        <a href="//gryaznoff.com">Personal webpage</a>
+        <a href="//gryaznoff.com">Webpage</a>
         <a href="//facebook.com/vyacheslav.gryaznov">Facebook</a>
         <a href="//youtube.com/VyacheslavGryaznovPiano">YouTube</a>
         <a href="//mailto:gryaznov.studio@gmail.com">@email</a>
@@ -66,11 +65,16 @@ export default {
   }
 }
 
+hr {
+  width: 50%;
+  border: 1px solid var(--hrcolor);
+}
+
 .main {
   width: 100%;
   margin: 0 auto;
   // padding: 1.5vw 15px 0;
-  padding: 0;
+  padding: 0.7rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -88,16 +92,17 @@ export default {
 .footer {
   display: flex;
   flex-direction: column;
-  align-items: space-between;
   justify-content: center;
   padding: calc(var(--space) / 2);
   text-align: center;
   font-size: 0.8em;
+  a {
+    margin: 0 0.3rem;
+  }
 
   > span {
     display: flex;
     flex-direction: row;
-    align-content: space-between;
     justify-content: center;
     margin: 0 1em;
   }

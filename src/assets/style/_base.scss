@@ -10,7 +10,7 @@ body {
   background-color: var(--bg-color);
   color: var(--body-color);
   transition: color 0.3s, background-color 0.3s;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.5;
@@ -18,7 +18,6 @@ body {
 
 a {
   color: var(--link-color);
-  margin: 0 1em;
   text-decoration: none;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease-in-out;
@@ -35,15 +34,10 @@ img {
   margin-bottom: 2rem;
 }
 
-hr {
-  margin-bottom: 0;
-  border: 1px solid var(--bg-content-color);
-}
-
 button {
   color: var(--link-color);
   font-size: 1.2rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   padding: 0.5rem 2rem;
   width: 100%;

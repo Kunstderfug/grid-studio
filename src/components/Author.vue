@@ -14,7 +14,7 @@
     <p class="author__intro">Welcome to my piano and recording studio.</p>
 
     <p class="author__links">
-      <a href="//gryaznoff.com">Personal webpage</a>
+      <a href="//gryaznoff.com">Webpage</a>
       <a href="//facebook.com/vyacheslav.gryaznov">Facebook</a>
       <a href="//youtube.com/VyacheslavGryaznovPiano">YouTube</a>
       <a href="//mailto:gryaznov.studio@gmail.com">@email</a>
@@ -61,7 +61,7 @@ export default {
   &__links {
     margin-top: -0.5em;
     a {
-      margin: 0 0.5em;
+      margin: 0 0.3em;
     }
   }
 }
