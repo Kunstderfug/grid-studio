@@ -30,14 +30,14 @@ CD recording, producing and mastering.
 
 <div class="eq">
 
-I give piano lessons and consultations for professionals who need quick or detailed feedback with the possibility to record the lesson in HQ for your future reference.
+I give piano lessons and consultations for professionals who need quick or detailed feedback with the possibility to HQ record the lesson for your future reference.
 
 This optional recording is free of charge.
 
 One hour lesson - $100  
 Students - $70
 
-The schedule depends on my availability, see my [concerts](gryaznoff.com/concerts) page.
+The schedule depends on my availability, see my [concerts](https://gryaznoff.com/category/concerts) page.
 
 </div>
 
@@ -51,7 +51,7 @@ The schedule depends on my availability, see my [concerts](gryaznoff.com/concert
 
 </div>
 
-#### Video for auditions / competitions / YouTube, etc.
+#### Video for auditions, competitions, YouTube, etc.
 
 <div class="eq">
 
@@ -113,6 +113,9 @@ _multichannel audio interface_
 
 Tascam UH7000  
 _two-channel audio interface_
+
+Steinberg UR44C  
+_six-channel 32bit audio interface_
 
 Oktava professional condenser microphones (6)
 

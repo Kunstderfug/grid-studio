@@ -27,47 +27,47 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "7d7da0088ca0815d6cf670dbcd42a607"
+    "revision": "a9041e78f7a40279e45302216fec8456"
   },
   {
     "url": "404/index.html",
-    "revision": "7d7da0088ca0815d6cf670dbcd42a607"
+    "revision": "a9041e78f7a40279e45302216fec8456"
   },
   {
-    "url": "assets/css/0.styles.76cd0b84.css",
-    "revision": "dc9385509fded4ac295112a544eb96c5"
+    "url": "assets/css/0.styles.127e3fa1.css",
+    "revision": "fdcce3e88b97cd5c451ffdbad0c72d6d"
   },
   {
     "url": "assets/data/404/index.json",
-    "revision": "05aa55310c3d59063341d53f812b0d76"
+    "revision": "76728b040bdfd111927c1026272a001b"
   },
   {
     "url": "assets/data/giveaway-recordings/index.json",
-    "revision": "12fc9164fa04d4f5aa86569dd7bf31ef"
+    "revision": "43eb224888018b73030a78e9fd62031e"
   },
   {
     "url": "assets/data/index.json",
-    "revision": "31e13b9f7fd5fc7c65e2990211f81d51"
+    "revision": "75e0ac35c2d43ae3bacb6d920ad273fd"
   },
   {
     "url": "assets/data/tag/audition/index.json",
-    "revision": "989f698944210f5d57302f8f23096e56"
+    "revision": "b7d409c0f721d1fd04c56d0913407f76"
   },
   {
     "url": "assets/data/tag/giveaway/index.json",
-    "revision": "0cd5e6c00cd1bac4e7857b0f8d15a534"
+    "revision": "7bb7cbd190462d876eeac876a53518a5"
   },
   {
     "url": "assets/data/tag/recording/index.json",
-    "revision": "46abd66f79a485bd9e84d616d8890205"
+    "revision": "488ca02115664abab61557bcfd572d4d"
   },
   {
     "url": "assets/data/tag/studio/index.json",
-    "revision": "025693df5906cd82cfe7212ee281ed02"
+    "revision": "520fc23e609f1d1a374bf377334ab525"
   },
   {
     "url": "assets/data/welcome/index.json",
-    "revision": "2ededf70f207e039b1d89fe93b022cc6"
+    "revision": "1f1ef94eecb57b942aab8f29d1891ca6"
   },
   {
     "url": "assets/img/coffee.00e58597.svg",
@@ -78,24 +78,24 @@ self.__precacheManifest = [
     "revision": "a8d127aae36b4ca1f3a800cdad093ce8"
   },
   {
-    "url": "assets/js/app.99af562d.js",
-    "revision": "393adce17f67343db1b04291af1a6ced"
+    "url": "assets/js/app.92772796.js",
+    "revision": "0d01f8adb5f495088b7b682cfa380e2f"
   },
   {
     "url": "assets/js/page--node-modules-gridsome-app-pages-404-vue.41bd1842.js",
     "revision": "4ed4020a0973ee3f3d1abade1e300b65"
   },
   {
-    "url": "assets/js/page--src-pages-index-vue.4797f684.js",
+    "url": "assets/js/page--src-pages-index-vue.41ca9fab.js",
     "revision": "462c9e6eabcc7329e4d94827ae978bb0"
   },
   {
-    "url": "assets/js/page--src-templates-post-vue.cac70545.js",
+    "url": "assets/js/page--src-templates-post-vue.8809813f.js",
     "revision": "c3604a30a79dfa9c7e27b48f9fe4b4ca"
   },
   {
-    "url": "assets/js/page--src-templates-tag-vue.45250918.js",
-    "revision": "7e2fc26dfe553cfe6bed1683d46a762e"
+    "url": "assets/js/page--src-templates-tag-vue.120af091.js",
+    "revision": "33dd67e26cf7a0ca2f40bdebba495646"
   },
   {
     "url": "assets/static/favicon.1539b60.d613fe2a07622ac4e16c1baa3c0e54cd.png",
@@ -251,11 +251,11 @@ self.__precacheManifest = [
   },
   {
     "url": "giveaway-recordings/index.html",
-    "revision": "61b69a5c16dc33ece5d4d6c6558e2d32"
+    "revision": "fa533929ac8bd29b1c7946a674d83f95"
   },
   {
     "url": "index.html",
-    "revision": "e2cdd1091f9980bef3d3e3b63220069c"
+    "revision": "e094b0b83f0cd4396deb53d4761e9cf2"
   },
   {
     "url": "manifest.json",
@@ -263,23 +263,23 @@ self.__precacheManifest = [
   },
   {
     "url": "tag/audition/index.html",
-    "revision": "f97be80db815a3f42e64e032ef4aadf4"
+    "revision": "a67f31fc7077663ae9a7b7fe1b202922"
   },
   {
     "url": "tag/giveaway/index.html",
-    "revision": "7bf27b67c9e6830e1a25e5d6a70a2614"
+    "revision": "7f69ec891b28245a3600f026da5a3a0c"
   },
   {
     "url": "tag/recording/index.html",
-    "revision": "7bc43a844b11f44a2ba41001c12cba63"
+    "revision": "ece76d4c82a37b35ffc7320739003112"
   },
   {
     "url": "tag/studio/index.html",
-    "revision": "69fd1b2a1766bded4c2ec1c86561cd13"
+    "revision": "a47ffb403c47605d7dd61374dc0a9dbc"
   },
   {
     "url": "welcome/index.html",
-    "revision": "76e885b894f7579f86aabde3d9435490"
+    "revision": "4ccfefe71eb2ba976fc2ef0d78dc4729"
   },
   {
     "url": "404",

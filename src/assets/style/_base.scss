@@ -4,7 +4,6 @@
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  transition: color 1s, background-color 1s;
 }
 
 body {
@@ -33,6 +32,10 @@ a {
 img {
   max-width: 100%;
   margin-bottom: 2rem;
+}
+
+hr {
+  margin-bottom: 1rem;
 }
 
 button {
@@ -107,7 +110,7 @@ input {
 
 input,
 textarea {
-  border: 1px solid lighten(#b87023, 30%);
+  border: 1px solid var(--link-color);
   padding: 0.3em;
   background: var(--bg-content-color);
   color: var(--text-color);
@@ -124,7 +127,7 @@ details {
 }
 
 details summary {
-  color: #b87023;
+  color: var(--link-color-p);
   text-decoration: none;
   text-transform: uppercase;
   transition: all 0.3s ease-in-out;
@@ -145,12 +148,15 @@ details p {
   margin-bottom: 1rem;
   margin-top: 1rem;
   background-color: var(--eq-color);
-  color: var(--body-color);
+  color: var(--eq-content);
   border-radius: 0.7rem;
   padding: 1rem;
   font-family: monospace;
   p {
     font-size: 1rem;
+  }
+  p:last-of-type {
+    margin-bottom: 0;
   }
 }
 
@@ -162,13 +168,6 @@ details p {
     margin: 2rem;
     padding: 3rem;
   }
-}
-
-.center {
-  text-align: center;
-}
-
-.right {
 }
 
 .gallery {

@@ -25,9 +25,6 @@ h5 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   line-height: 1.15;
-  &:hover {
-    color: var(--link-color);
-  }
 }
 
 h1 {
@@ -81,7 +78,7 @@ ul {
 ol {
   list-style-type: decimal;
   margin-left: 1.25em;
-  margin-bottom: 1.25em;
+  // margin-bottom: 1.25em;
   li {
     margin-bottom: 0.6em;
   }
