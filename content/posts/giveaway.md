@@ -1,11 +1,11 @@
 ---
 title: Giveaway recordings
-date: 2020-01-06
+date: 2020-01-12
 published: true
-tags: ['giveaway', 'recording']
+tags: ["giveaway", "recording"]
 canonical_url: false
-cover_image: './images/studio-steinway.jpg'
-description: 'NEW! Giveaway recordings. Beginning January 2020, I do giveaway recordings once per month. Read more'
+cover_image: "./images/studio-steinway.jpg"
+description: "NEW! Giveaway recordings. Beginning January 2020, I do giveaway recordings once per month. Read more"
 ---
 
 **Beginning January 2020, I do giveaway recordings once per month.**
@@ -18,7 +18,7 @@ The rules are simple:
 
 1. Make a 5-10 minutes long recording of your playing with a phone or whatever device you have, upload it on any cloud, share and send me the link via [email](mailto:gryaznov.studio@gmail.com) with the subject _"giveaway recording request"_. Some brief background information about who you are and what are you looking for would be appreciated.
 
-2. I will select two persons who, in my opinion, deserve to be heard and seen. These names will be listed on my [Facebook](https://www.facebook.com/SlavaPiano/ 'Facebook studio page') studio page with the links to the video or audio we made.
+2. I will select two persons who, in my opinion, deserve to be heard and seen. These names will be listed on my [Facebook](https://www.facebook.com/SlavaPiano/ "Facebook studio page") studio page with the links to the video or audio we made.
 
 </div>
 
@@ -36,6 +36,6 @@ _The final result will include audio tracks suitable to print on CD, and one ang
 
 The winners can use this material however they want.
 
-I will retain the rights to use the excerpts from these recordings as the examples of work for this particular page, for my [Facebook](https://www.facebook.com/SlavaPiano/ 'Facebook studio page') page and on my [Google Business](https://gryaznov-piano-studio.business.site 'Google Business studio page') page.
+I will retain the rights to use the excerpts from these recordings as the examples of work for this particular page, for my [Facebook](https://www.facebook.com/SlavaPiano/ "Facebook studio page") page and on my [Google Business](https://gryaznov-piano-studio.business.site "Google Business studio page") page.
 
 Good luck!

@@ -38,8 +38,8 @@ query {
 </page-query>
 
 <script>
-import Author from '~/components/Author.vue';
-import PostCard from '~/components/PostCard.vue';
+import Author from "~/components/Author.vue";
+import PostCard from "~/components/PostCard.vue";
 
 export default {
   components: {
@@ -47,7 +47,7 @@ export default {
     PostCard
   },
   metaInfo: {
-    title: 'Welcome'
+    title: "Welcome"
   }
 };
 </script>
@@ -67,8 +67,8 @@ export default {
 
 @media screen and (min-width: 1024px) {
   .posts {
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 4rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
   }
 }
 </style>

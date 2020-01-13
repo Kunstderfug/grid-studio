@@ -1,6 +1,6 @@
 ---
-title: Studio
-date: 2020-01-05
+title: Teaching
+date: 2020-01-10
 published: true
 tags: ["studio", "recording", "audition"]
 cover_image: "./images/studio-steinway-1.jpg"
