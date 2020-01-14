@@ -75,7 +75,7 @@ export default {
 
   &:hover {
     transform: scale(1.03);
-    box-shadow: 2px 5px 5px 0 rgba(0, 0, 0, 0.1);
+    // box-shadow: 2px 5px 5px 0 rgba(0, 0, 0, 0.1);
   }
   &__content {
     padding: 1rem;

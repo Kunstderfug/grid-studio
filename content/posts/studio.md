@@ -8,6 +8,16 @@ canonical_url: false
 description: 'HQ audio/video for auditions, YouTube. <br> CD producing'
 ---
 
+<script>
+import Gallery from '~/components/Gallery.vue'
+
+export default {
+    components: {
+        Gallery
+    }
+}
+</script>
+
 <div style="text-align: center">
 
 ## Welcome to my piano and recording studio.
@@ -130,25 +140,27 @@ Oktava professional condenser microphones (6)
 
 <div class="gallery">
 
-![Piano studio](./../../src/assets/studio/studio-2.jpg)
+![Piano studio](./images/studio-2.jpg)
 
-![Piano studio](./../../src/assets/studio/studio-steinway-1.jpg)
+![Piano studio](./images/studio-steinway-1.jpg)
 
-![Piano studio](./../../src/assets/studio/studio-3.jpg)
+![Piano studio](./images/studio-steinway.jpg)
 
-![Piano studio](./../../src/assets/studio/studio-4.jpg)
+![Piano studio](./images/studio-3.jpg)
 
-![Piano studio](./../../src/assets/studio/studio-5.jpg)
+<!-- ![Piano studio](./../../src/assets/studio/studio-4.jpg) -->
 
-![Piano studio](./../../src/assets/studio/studio-6.jpg)
+<!-- ![Piano studio](./../../src/assets/studio/studio-5.jpg) -->
+
+<!-- ![Piano studio](./../../src/assets/studio/studio-6.jpg) -->
 
 </div>
 
 ### Booking
 
 <br>
-<form method="post" name="contact-studio" data-netlify="true" data-netlify-honeypot="bot-field">
-<input type="hidden" name="form-name" value="contact-studio" />
+<form method="post" name="studio" data-netlify="true" data-netlify-honeypot="bot-field">
+<input type="hidden" name="form-name" value="studio" />
 <label for="name">Name</label>
 <br>
 <input type="text" name="name" id="name" placeholder="Your name here.." required/>

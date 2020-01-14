@@ -5,11 +5,11 @@
 
     <!-- List posts -->
     <div class="posts">
-      <PostCard
-        v-for="edge in $page.posts.edges"
-        :key="edge.node.id"
-        :post="edge.node"
-      />
+      <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node" />
+    </div>
+    <div class="links">
+      <g-link to="/gallery">Gallery</g-link>
+      <g-link to="/samples">Samples</g-link>
     </div>
   </Layout>
 </template>
@@ -70,5 +70,16 @@ export default {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2rem;
   }
+}
+
+.links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  justify-items: center;
+  a {
+    font-size: 2rem;
+  }
+  // background: var(--link-color);
 }
 </style>

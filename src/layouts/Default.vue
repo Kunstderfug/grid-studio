@@ -9,26 +9,44 @@
         <ToggleTheme />
       </div>
     </header>
-
-    <main class="main">
-      <slot />
-    </main>
+    <transition name="fade" appear>
+      <main class="main">
+        <slot />
+      </main>
+    </transition>
     <footer class="footer">
-      <span class="footer__copyright">V. Gryaznov © {{ new Date().getFullYear() }}</span>
+      <span class="footer__copyright"
+        >V. Gryaznov © {{ new Date().getFullYear() }}</span
+      >
       <br />
       <span class="footer__links">
         <a href="//gryaznoff.com" target="_blank" rel="noreferrer">Webpage</a>
-        <a href="//facebook.com/vyacheslav.gryaznov" target="_blank" rel="noreferrer">Facebook</a>
-        <a href="//youtube.com/VyacheslavGryaznovPiano" target="_blank" rel="noreferrer">YouTube</a>
-        <a href="//mailto:gryaznov.studio@gmail.com" target="_blank" rel="noreferrer">@email</a>
+        <a
+          href="//facebook.com/vyacheslav.gryaznov"
+          target="_blank"
+          rel="noreferrer"
+          >Facebook</a
+        >
+        <a
+          href="//youtube.com/VyacheslavGryaznovPiano"
+          target="_blank"
+          rel="noreferrer"
+          >YouTube</a
+        >
+        <a
+          href="//mailto:gryaznov.studio@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+          >@email</a
+        >
       </span>
     </footer>
   </div>
 </template>
 
 <script>
-import Logo from "~/components/Logo.vue";
-import ToggleTheme from "~/components/ToggleTheme.vue";
+import Logo from '~/components/Logo.vue';
+import ToggleTheme from '~/components/ToggleTheme.vue';
 
 export default {
   props: {
@@ -72,7 +90,7 @@ hr {
 .main {
   width: 100%;
   margin: 0 auto;
-  margin: -1rem auto 2rem auto;
+  margin: -2rem auto 2rem auto;
   // padding: 1.5vw 15px 0;
   padding: 1.3rem;
 }
@@ -80,14 +98,14 @@ hr {
 @media screen and (min-width: 768px) {
   .main {
     padding: 0 5rem;
-    min-height: calc(100vh - 10rem);
+    min-height: calc(100vh - 11rem);
   }
 }
 
 @media screen and (min-width: 1024px) {
   .main {
     max-width: calc(var(--content-width) * 1.5);
-    min-height: calc(100vh - 12rem);
+    min-height: calc(100vh - 13rem);
     padding: 0 6rem;
   }
 }
@@ -124,5 +142,13 @@ hr {
   .footer {
     padding: calc(var(--space) / 2);
   }
+}
+
+.fade-enter-active {
+  transition: opacity 1s;
+}
+
+.fade-enter {
+  opacity: 0;
 }
 </style>
