@@ -1,8 +1,5 @@
 <template>
-  <div
-    class="post-card content-box"
-    :class="{ 'post-card--has-poster': post.poster }"
-  >
+  <div class="post-card content-box" :class="{ 'post-card--has-poster': post.poster }">
     <div class="post-card__header">
       <g-image
         alt="Cover image"
@@ -15,8 +12,8 @@
       <h2 class="post-card__title" v-html="post.title" />
       <p class="post-card__description" v-html="post.description" />
 
-      <PostMeta class="post-card__meta" :post="post" />
-      <PostTags class="post-card__tags" :post="post" />
+      <!-- <PostMeta class="post-card__meta" :post="post" /> -->
+      <!-- <PostTags class="post-card__tags" :post="post" /> -->
 
       <g-link class="post-card__link" :to="post.path">Link</g-link>
     </div>
@@ -43,20 +40,26 @@ export default {
   border: 1px solid var(--hrcolor);
 
   &__header {
-    // margin-left: calc(var(--space) * -1);
-    // margin-right: calc(var(--space) * -1);
-    // margin-bottom: calc(var(--space) / 2);
-    // margin-top: calc(var(--space) * -1);
     overflow: hidden;
 
     &:empty {
       display: block;
       margin-top: -2rem;
     }
+
+    img {
+      z-index: 10;
+      transition: transform 0.3s ease;
+    }
+
+    &:hover img {
+      transform: scale(1.1);
+    }
   }
 
   &__image {
     max-width: 100%;
+    overflow: hidden;
     &:not:first-child {
       padding-top: 2rem;
     }
@@ -72,16 +75,21 @@ export default {
 
   &:hover {
     transform: scale(1.03);
-    // box-shadow: 1px 10px 30px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 5px 5px 0 rgba(0, 0, 0, 0.1);
   }
   &__content {
     padding: 1rem;
+  }
+
+  &__description {
+    font-size: 0.9rem;
   }
 
   &__tags {
     z-index: 1;
     position: relative;
     margin-bottom: 1rem;
+    bottom: -2rem;
   }
 
   &__link {

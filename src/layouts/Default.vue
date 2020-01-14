@@ -14,30 +14,13 @@
       <slot />
     </main>
     <footer class="footer">
-      <span class="footer__copyright"
-        >V. Gryaznov © {{ new Date().getFullYear() }}</span
-      >
+      <span class="footer__copyright">V. Gryaznov © {{ new Date().getFullYear() }}</span>
       <br />
       <span class="footer__links">
         <a href="//gryaznoff.com" target="_blank" rel="noreferrer">Webpage</a>
-        <a
-          href="//facebook.com/vyacheslav.gryaznov"
-          target="_blank"
-          rel="noreferrer"
-          >Facebook</a
-        >
-        <a
-          href="//youtube.com/VyacheslavGryaznovPiano"
-          target="_blank"
-          rel="noreferrer"
-          >YouTube</a
-        >
-        <a
-          href="//mailto:gryaznov.studio@gmail.com"
-          target="_blank"
-          rel="noreferrer"
-          >@email</a
-        >
+        <a href="//facebook.com/vyacheslav.gryaznov" target="_blank" rel="noreferrer">Facebook</a>
+        <a href="//youtube.com/VyacheslavGryaznovPiano" target="_blank" rel="noreferrer">YouTube</a>
+        <a href="//mailto:gryaznov.studio@gmail.com" target="_blank" rel="noreferrer">@email</a>
       </span>
     </footer>
   </div>
@@ -60,12 +43,11 @@ export default {
 
 <style lang="scss">
 .header {
-  margin-top: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-height: var(--header-height);
-  padding: 0 calc(var(--space) / 2);
+  padding: 1rem calc(var(--space) / 2);
   top: 0;
   z-index: 10;
 

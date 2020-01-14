@@ -100,6 +100,7 @@ query Post ($id: ID!) {
   &__content {
     h2:first-child {
       margin-top: 0;
+      margin-bottom: 1rem;
       padding: 0;
     }
 
@@ -118,11 +119,12 @@ query Post ($id: ID!) {
 
   h2,
   h4 {
-    padding: 1rem;
+    padding: 1rem 1rem 0 1rem;
   }
 
-  h2 {
+  h3 {
     border-bottom: 1px solid;
+    padding-bottom: 0.5rem;
   }
 }
 

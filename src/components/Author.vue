@@ -1,21 +1,21 @@
 <template>
   <div class="author">
-    <g-image
-      alt="Author image"
-      class="author__image"
-      src="~/assets/photo-author.jpg"
-      width="180"
-      height="180"
-      blur="5"
-    />
+    <g-link to="/">
+      <g-image
+        alt="Author image"
+        class="author__image"
+        src="../assets/photo-author.jpg"
+        width="180"
+        height="180"
+        blur="5"
+      />
+    </g-link>
 
     <h1 v-if="showTitle" class="author__site-title">
       {{
       $static.metadata.siteName
       }}
     </h1>
-
-    <p class="author__intro">Welcome to my piano and recording studio.</p>
 
     <p class="author__links">
       <a href="//gryaznoff.com" target="_blank" rel="noreferrer">Webpage</a>
@@ -49,11 +49,19 @@ export default {
   padding: calc(var(--space) / 2) 0;
   margin-bottom: 1rem;
 
+  a:hover,
+  a:focus {
+    border-bottom: none;
+  }
+
   &__image {
     border-radius: 100%;
     width: 180px;
     height: 180px;
     margin-bottom: 1em;
+    &:hover {
+      transition: scale(1.1);
+    }
   }
 
   &__intro {
@@ -68,6 +76,10 @@ export default {
     margin-top: -0.5em;
     a {
       margin: 0 0.3em;
+      &:hover,
+      &:focus {
+        border-bottom: 1px solid var(--link-color-p);
+      }
     }
   }
 }

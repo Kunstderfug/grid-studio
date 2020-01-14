@@ -1,12 +1,18 @@
 ---
-title: Studio
+title: Recording
 date: 2020-01-05
 published: true
-tags: ["studio", "recording", "audition"]
-cover_image: "./images/studio-steinway-1.jpg"
+tags: ['studio', 'recording', 'audition', 'youtube']
+cover_image: './images/recording.jpg'
 canonical_url: false
-description: "Welcome to my piano and recording studio. Click here if you want to know more."
+description: 'HQ audio/video for auditions, YouTube. <br> CD producing'
 ---
+
+<div style="text-align: center">
+
+## Welcome to my piano and recording studio.
+
+</div>
 
 <div style="text-align: center">
 
@@ -14,7 +20,7 @@ description: "Welcome to my piano and recording studio. Click here if you want t
 
 </div>
 
-## Services
+### Services
 
 <div class="eq">
 
@@ -22,28 +28,21 @@ High quality video recording up to 4K.
 
 One or two angle shoot.
 
-Multitrack audio recording, up to 96khz / 24 bit.
+Multitrack audio recording, up to 192kHz/32 bit.
 
 CD recording, producing and mastering.
 
 </div>
 
-<div class="eq">
-
-I give piano lessons and consultations for professionals who need quick or detailed feedback with the possibility to HQ record the lesson for your future reference.
-
-This optional recording is free of charge.
-
-One hour lesson - $100  
-Students - $70
-
 The schedule depends on my availability, see my [concerts](https://gryaznoff.com/category/concerts) page.
 
-</div>
+To get some info about the piano lessons click [piano studio](/piano-studio) page.
 
-## Pricing
+Check [giveaway](/giveaway) page to know about free recording sessions for musicians.
 
-#### Audio/video recording at studio
+### Pricing
+
+#### Audio/video recording
 
 <div class="eq">
 
@@ -57,8 +56,8 @@ The schedule depends on my availability, see my [concerts](https://gryaznoff.com
 
 Up to one hour of the final video (without audio montage):
 
-One angle shoot - $250  
-Two angles shoot - $500
+One-angle shoot - $250  
+Two-angle shoot - $500
 
 </div>
 
@@ -84,7 +83,7 @@ Please use [contact form](#booking) below or [@email](mailto:gryaznov.studio@gma
 
 </div>
 
-## Equipment
+### Equipment
 
 #### Piano
 
@@ -127,7 +126,7 @@ Oktava professional condenser microphones (6)
 
 </div>
 
-## Gallery
+### Gallery
 
 <div class="gallery">
 
@@ -145,7 +144,7 @@ Oktava professional condenser microphones (6)
 
 </div>
 
-## Booking
+### Booking
 
 <br>
 <form method="post" name="contact-studio" data-netlify="true" data-netlify-honeypot="bot-field">

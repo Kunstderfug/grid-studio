@@ -1,6 +1,6 @@
 <template>
   <g-link class="logo" to="/">
-    <span class="logo__text">&larr; back to all posts</span>
+    <span class="logo__text">&larr; back to home</span>
   </g-link>
 </template>
 

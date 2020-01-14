@@ -1,151 +1,33 @@
 ---
-title: Teaching
+title: Piano studio
 date: 2020-01-10
 published: true
-tags: ["studio", "recording", "audition"]
-cover_image: "./images/studio-steinway-1.jpg"
+tags: ['lesson', 'consultation']
+cover_image: './images/piano-studio.jpg'
 canonical_url: false
-description: "Welcome to my piano and recording studio. Click here if you want to know more."
+description: 'Piano lessons for students and professionals'
 ---
 
-<div style="text-align: center">
+**I give piano lessons and consultations for professionals who need quick or detailed feedback.**
 
-[Services](#services) | [Pricing](#pricing) | [Equipment](#equipment) | [Gallery](#gallery) | [Booking](#booking)
-
-</div>
-
-## Services
+There is an possibility to record the lesson in HQ for your future reference. The optional recording is free of charge.
 
 <div class="eq">
-
-High quality video recording up to 4K.
-
-One or two angle shoot.
-
-Multitrack audio recording, up to 96khz / 24 bit.
-
-CD recording, producing and mastering.
-
+<p>One hour lesson for professionals - $100</p>
+<p>For students - $70</p>
 </div>
-
-<div class="eq">
-
-I give piano lessons and consultations for professionals who need quick or detailed feedback with the possibility to HQ record the lesson for your future reference.
-
-This optional recording is free of charge.
-
-One hour lesson - $100  
-Students - $70
 
 The schedule depends on my availability, see my [concerts](https://gryaznoff.com/category/concerts) page.
 
-</div>
-
-## Pricing
-
-#### Audio/video recording at studio
-
-<div class="eq">
-
-<p>One hour - $75</p>
-
-</div>
-
-#### Video for auditions, competitions, YouTube, etc.
-
-<div class="eq">
-
-Up to one hour of the final video (without audio montage):
-
-One angle shoot - $250  
-Two angles shoot - $500
-
-</div>
-
-#### Audio CD producing and mastering
-
-<div class="eq">
-
-<p>1 CD - $1000</p>
-
-This option is including 4 hours of recording at studio.
-
-</div>
-
 <div class="text-center">
 
-Please use [contact form](#booking) below or [@email](mailto:gryaznov.studio@gmail.com) to book your time or ask a question.
-
 </div>
 
-<div class="text-right hidden">
+### Booking
 
-[back to top](#intro)
+<space class="space"></space>
 
-</div>
-
-## Equipment
-
-#### Piano
-
-<div class="eq">
-
-Concert full grand Steinway D (Hamburg)
-
-</div>
-
-#### Cameras
-
-<div class="eq">
-
-Panasonic GH4 hybrid video/photo camera
-
-Blackmagic Pocket Cinema Camera 4K
-
-</div>
-
-#### Audio gear
-
-<div class="eq">
-
-Presonus AudioBox 18/18  
-_multichannel audio interface_
-
-Tascam UH7000  
-_two-channel audio interface_
-
-Steinberg UR44C  
-_six-channel 32bit audio interface_
-
-Oktava professional condenser microphones (6)
-
-</div>
-
-<div class="text-right hidden">
-
-[back to top](#intro)
-
-</div>
-
-## Gallery
-
-<div class="gallery">
-
-![Piano studio](./../../src/assets/studio/studio-2.jpg)
-
-![Piano studio](./../../src/assets/studio/studio-steinway-1.jpg)
-
-![Piano studio](./../../src/assets/studio/studio-3.jpg)
-
-![Piano studio](./../../src/assets/studio/studio-4.jpg)
-
-![Piano studio](./../../src/assets/studio/studio-5.jpg)
-
-![Piano studio](./../../src/assets/studio/studio-6.jpg)
-
-</div>
-
-## Booking
+Please use contact form below or [@email](mailto:gryaznov.studio@gmail.com) me to book your time or ask a question.
 
 <br>
 <form method="post" name="contact-studio" data-netlify="true" data-netlify-honeypot="bot-field">
@@ -162,8 +44,9 @@ Oktava professional condenser microphones (6)
 <br>
 <label for="message"> Message</label>
 <br>
-<textarea name="message" id="message" placeholder="your inquiry.." style="height: 150px" required></textarea>
+<textarea name="message" id="message" placeholder="your inquiry.." style="height: 10vh" required></textarea>
 <br>
 <br>
 <button type="submit">Send your message</button>
 </form>
+<space class="space"></space>
