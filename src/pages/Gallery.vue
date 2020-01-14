@@ -24,34 +24,6 @@
   </Layout>
 </template>
 
-//
-<script>
-// import VueGallery from 'vue-gallery';
-
-// export default {
-//   name: 'Gallery',
-//   data: function() {
-//     return {
-//       images: [
-//         'assets/img/studio-2.jpg',
-//         'assets/img/studio-steinway.jpg',
-//         'assets/img/studio-steinway-1.jpg',
-//         'assets/img/studio-3.jpg',
-//         'assets/img/studio-4.jpg',
-//         'assets/img/studio-5.jpg',
-//         'assets/img/studio-6.jpg'
-//       ],
-//       index: null
-//     };
-//   },
-
-//   components: {
-//     gallery: VueGallery
-//   }
-// };
-//
-</script>
-
 <style lang="scss">
 .post-title {
   padding: calc(var(--space) / 2) 0 calc(var(--space) / 2);
