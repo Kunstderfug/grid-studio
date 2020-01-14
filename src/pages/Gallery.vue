@@ -7,30 +7,20 @@
     <div class="post content-box">
       <!-- <gallery :images="images" :index="index" @close="index = null"></gallery> -->
       <div class="gallery">
-        <g-image src="../assets/studio/studio-steinway.jpg" width="300px" />
-        <a href="assets/img/studio-steinway-1.jpg"
-          ><img src="../assets/studio/studio-steinway-1.jpg" width="300px"
-        /></a>
-        <a href="assets/img/studio-2.jpg"
-          ><img src="../assets/studio/studio-2.jpg" width="300px"
-        /></a>
-        <a href="assets/img/studio-3.jpg"
-          ><img src="../assets/studio/studio-3.jpg" width="300px"
-        /></a>
-        <a href="assets/img/studio-4.jpg"
-          ><img src="../assets/studio/studio-4.jpg" width="300px"
-        /></a>
-        <a href="assets/img/studio-5.jpg"
-          ><img src="../assets/studio/studio-5.jpg" width="300px"
-        /></a>
-        <a href="assets/img/studio-6.jpg"
-          ><img src="../assets/studio/studio-6.jpg" width="300px"
-        /></a>
-        <a href="assets/img/studio-7.jpg"
-          ><img src="../assets/studio/studio-7.jpg" width="300px"
-        /></a>
+        <div class="image"
+          ><g-image src="../assets/studio/studio-steinway.jpg"
+        /></div>
+        <div class="image"
+          ><g-image src="../assets/studio/studio-steinway-1.jpg"
+        /></div>
+        <div class="image"><g-image src="../assets/studio/studio-2.jpg"/></div>
+        <div class="image"><g-image src="../assets/studio/studio-3.jpg"/></div>
+        <div class="image"><g-image src="../assets/studio/studio-4.jpg"/></div>
+        <div class="image"><g-image src="../assets/studio/studio-5.jpg"/></div>
+        <div class="image"><g-image src="../assets/studio/studio-6.jpg"/></div>
+        <div class="image"><g-image src="../assets/studio/studio-7.jpg"/></div>
       </div>
-      <div class="gallery">
+      <!-- <div class="gallery">
         <div
           class="image"
           v-for="(image, imageIndex) in images"
@@ -42,7 +32,7 @@
             height: '15vh'
           }"
         ></div
-      ></div>
+      ></div> -->
     </div>
   </Layout>
 </template>
@@ -91,18 +81,6 @@
   }
 }
 
-.image {
-  width: 100%;
-  height: auto;
-  background-size: cover;
-  background-position: center center;
-  border: 1px solid #ebebeb;
-  margin: 5px;
-  &:hover {
-    cursor: pointer;
-  }
-}
-
 .gallery {
   max-width: 100%;
   display: grid;
@@ -128,6 +106,16 @@
   .gallery {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 2rem;
+  }
+}
+
+.image {
+  &:hover {
+    cursor: pointer;
+  }
+  img {
+    width: 100%;
+    background-size: cover;
   }
 }
 </style>
