@@ -27,9 +27,9 @@ The schedule depends on my availability, see my [concerts](https://gryaznoff.com
 
 <space class="space"></space>
 
-Please use contact form below or [@email](mailto:gryaznov.studio@gmail.com) me to book your time or ask a question.
+Please [@email](mailto:gryaznov.studio@gmail.com) me to book your time or ask a question.
 
-<br>
+<!-- <br>
 <form method="post" name="contact-studio" data-netlify="true" data-netlify-honeypot="bot-field">
 <input type="hidden" name="form-name" value="contact-studio" />
 <label for="name">Name</label>
@@ -48,5 +48,6 @@ Please use contact form below or [@email](mailto:gryaznov.studio@gmail.com) me t
 <br>
 <br>
 <button type="submit">Send your message</button>
-</form>
+</form> -->
+
 <space class="space"></space>

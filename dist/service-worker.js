@@ -27,71 +27,71 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "b55b8a48f0f060907375566f40f46645"
+    "revision": "6da931ecd736712fb92a527a7bc91020"
   },
   {
     "url": "404/index.html",
-    "revision": "b55b8a48f0f060907375566f40f46645"
+    "revision": "6da931ecd736712fb92a527a7bc91020"
   },
   {
-    "url": "assets/css/0.styles.5b330a4f.css",
-    "revision": "f15539d7eec56f3cad407b84901bc1c3"
+    "url": "assets/css/0.styles.68806779.css",
+    "revision": "55844a09eb7813cecd97882b6e0ec3a8"
   },
   {
     "url": "assets/data/404/index.json",
-    "revision": "1755f508a9066e7e4b6c221aca6157d5"
+    "revision": "81817a9ec94307da428628b45188ef79"
   },
   {
     "url": "assets/data/gallery/index.json",
-    "revision": "1755f508a9066e7e4b6c221aca6157d5"
+    "revision": "81817a9ec94307da428628b45188ef79"
   },
   {
     "url": "assets/data/giveaway/index.json",
-    "revision": "00f9aba5cd169a1a589e836d7fa28229"
+    "revision": "9a38fc8a0f8fb51270dabe30d65be8b0"
   },
   {
     "url": "assets/data/index.json",
-    "revision": "6c0345ddaa4b7abba9e93e19d4826fda"
+    "revision": "62a3cae382616a20e3b8abcc4cc23d38"
   },
   {
     "url": "assets/data/piano-studio/index.json",
-    "revision": "a4c89404c6fff13609c8901bd5079f7b"
+    "revision": "01b552802d14348c1105e294c9ff4139"
   },
   {
     "url": "assets/data/recording/index.json",
-    "revision": "e53871a6e4c927baa995352ef42ab85a"
+    "revision": "e7d5b666e05bfa8f95c4be97578d742f"
   },
   {
     "url": "assets/data/samples/index.json",
-    "revision": "1755f508a9066e7e4b6c221aca6157d5"
+    "revision": "81817a9ec94307da428628b45188ef79"
   },
   {
     "url": "assets/data/tag/audition/index.json",
-    "revision": "abf9ce8ef3b6f3bad22684ca073316a1"
+    "revision": "21b32a7456d7f805160d873be9928e46"
   },
   {
     "url": "assets/data/tag/consultation/index.json",
-    "revision": "6fa05112d769937694fea4af9bc454e3"
+    "revision": "4470d0b5d60cd45ad4c8f96f25bc018f"
   },
   {
     "url": "assets/data/tag/giveaway/index.json",
-    "revision": "76611d58721e1dac364a90b4866e7610"
+    "revision": "7732e988aa921170d9e222ee518f3529"
   },
   {
     "url": "assets/data/tag/lesson/index.json",
-    "revision": "84f6711f86365ac60c4306eaebc79d33"
+    "revision": "4b0f8407b6382084fc57a6009bc8bcc4"
   },
   {
     "url": "assets/data/tag/recording/index.json",
-    "revision": "a91ca69b44ce6625a9b0e86fb93a820c"
+    "revision": "2903c6d01e69f228827d0bc3c9e4c897"
   },
   {
     "url": "assets/data/tag/studio/index.json",
-    "revision": "9e21507ef80bf782a3022d117711adbd"
+    "revision": "ef6a91c88f63492ef59f4b4973a99f7b"
   },
   {
     "url": "assets/data/tag/youtube/index.json",
-    "revision": "14b0ca1fba74767db16aa13f1bb52813"
+    "revision": "b81ecde16783cb2aa5361e423f1abf95"
   },
   {
     "url": "assets/img/coffee.00e58597.svg",
@@ -102,60 +102,32 @@ self.__precacheManifest = [
     "revision": "a8d127aae36b4ca1f3a800cdad093ce8"
   },
   {
-    "url": "assets/img/studio-2.f9bc7576.jpg",
-    "revision": "f9bc7576fdc00764b7aa01af84d23e91"
+    "url": "assets/js/app.fe5b5aeb.js",
+    "revision": "f21a753d76df54077de8977573035c1a"
   },
   {
-    "url": "assets/img/studio-3.7e22ac31.jpg",
-    "revision": "7e22ac3174b4954fd6ba4b941fc189ec"
+    "url": "assets/js/page--node-modules-gridsome-app-pages-404-vue.4bf493cb.js",
+    "revision": "ec40164dd0ffd02021ba26c49b13d5d9"
   },
   {
-    "url": "assets/img/studio-4.98e60696.jpg",
-    "revision": "98e6069631293346ddd8fd041a60cf2e"
+    "url": "assets/js/page--src-pages-gallery-vue.3fa7f681.js",
+    "revision": "35b9a9d9f76e9d0ad5d331e62ad0cb6a"
   },
   {
-    "url": "assets/img/studio-5.0de6371d.jpg",
-    "revision": "0de6371deb81a5a0c94b167cb720f3c0"
+    "url": "assets/js/page--src-pages-index-vue.2732b7da.js",
+    "revision": "e3c3868e32653df8c27a2a10b7d2796e"
   },
   {
-    "url": "assets/img/studio-6.80381bee.jpg",
-    "revision": "80381bee70ebf076959dcceb69f16482"
+    "url": "assets/js/page--src-pages-samples-vue.5d0e3901.js",
+    "revision": "49aa1d25b933021290ad83f2c55f18d9"
   },
   {
-    "url": "assets/img/studio-7.4799654f.jpg",
-    "revision": "4799654f2286bf4fbb74fe2e0d7b1cdd"
+    "url": "assets/js/page--src-templates-post-vue.60db2545.js",
+    "revision": "1584175df339b67cc8a2fd3b49a4b76b"
   },
   {
-    "url": "assets/img/studio-steinway-1.dd3c3778.jpg",
-    "revision": "dd3c37788c216c85c0a4be56a3fd6434"
-  },
-  {
-    "url": "assets/js/app.4e99c57c.js",
-    "revision": "9d5e8e879043d757403f1c818d32f195"
-  },
-  {
-    "url": "assets/js/page--node-modules-gridsome-app-pages-404-vue.578f83f1.js",
-    "revision": "ede16646465ccbabb366ae447c6ffa86"
-  },
-  {
-    "url": "assets/js/page--src-pages-gallery-vue.71219a65.js",
-    "revision": "abfc5ba1442ae08df5034b4da7378995"
-  },
-  {
-    "url": "assets/js/page--src-pages-index-vue.87d175ab.js",
-    "revision": "543086fe9d2b92293512aa5cb2c62d3f"
-  },
-  {
-    "url": "assets/js/page--src-pages-samples-vue.f5249c63.js",
-    "revision": "ca06ced4df8fa2417d5332e4c8187c78"
-  },
-  {
-    "url": "assets/js/page--src-templates-post-vue.f722986f.js",
-    "revision": "5aedd6dbbdbc5de74bdd6d1899904fa2"
-  },
-  {
-    "url": "assets/js/page--src-templates-tag-vue.d9348a97.js",
-    "revision": "e8dd2ce92ff9b404a0f62473b432d79e"
+    "url": "assets/js/page--src-templates-tag-vue.0caa824b.js",
+    "revision": "8f37aeb13d1deea452536b4f8c442a49"
   },
   {
     "url": "assets/static/favicon.1539b60.d613fe2a07622ac4e16c1baa3c0e54cd.png",
@@ -222,96 +194,28 @@ self.__precacheManifest = [
     "revision": "75953419a88ce0afe580dad21863a8d4"
   },
   {
-    "url": "assets/static/studio-2.2665e34.f9bc7576fdc00764b7aa01af84d23e91.jpg",
-    "revision": "7147b1528e6299c36048078d240ced5f"
-  },
-  {
-    "url": "assets/static/studio-2.42db587.f9bc7576fdc00764b7aa01af84d23e91.jpg",
-    "revision": "8819de22efc2024ca60ac1dc964c650a"
-  },
-  {
-    "url": "assets/static/studio-2.82a2fbd.f9bc7576fdc00764b7aa01af84d23e91.jpg",
-    "revision": "1e00fb89c84280c773074961bccde5a5"
-  },
-  {
-    "url": "assets/static/studio-2.cbab2cf.f9bc7576fdc00764b7aa01af84d23e91.jpg",
-    "revision": "d7665b63272f5419c23fe1e4e00af2a2"
-  },
-  {
-    "url": "assets/static/studio-3.2665e34.7e22ac3174b4954fd6ba4b941fc189ec.jpg",
-    "revision": "4de0b13caf3536d879ecc4448d09edca"
-  },
-  {
-    "url": "assets/static/studio-3.42db587.7e22ac3174b4954fd6ba4b941fc189ec.jpg",
-    "revision": "29d1eab734d3290fc769ee2b8c00ce70"
-  },
-  {
-    "url": "assets/static/studio-3.82a2fbd.7e22ac3174b4954fd6ba4b941fc189ec.jpg",
-    "revision": "cce6a0c4f8e2e6b4efa6b68fbf00d4fd"
-  },
-  {
-    "url": "assets/static/studio-3.cbab2cf.7e22ac3174b4954fd6ba4b941fc189ec.jpg",
-    "revision": "2fc7a6d63eed338e596f2eb2a2670f3b"
-  },
-  {
-    "url": "assets/static/studio-steinway-1.2665e34.dd3c37788c216c85c0a4be56a3fd6434.jpg",
-    "revision": "f069397fdf18b8a12bf750cfc32e0368"
-  },
-  {
-    "url": "assets/static/studio-steinway-1.42db587.dd3c37788c216c85c0a4be56a3fd6434.jpg",
-    "revision": "b3e1a7c6ac2650d7d7abc01eda43c3d6"
-  },
-  {
-    "url": "assets/static/studio-steinway-1.82a2fbd.dd3c37788c216c85c0a4be56a3fd6434.jpg",
-    "revision": "48c92c23b1db8498d4b3236eae0a1615"
-  },
-  {
-    "url": "assets/static/studio-steinway-1.cbab2cf.dd3c37788c216c85c0a4be56a3fd6434.jpg",
-    "revision": "05710ffb633902919f41ab6ddd4bd77e"
-  },
-  {
     "url": "assets/static/studio-steinway.07cc2b7.17ad1d07b7764499a88dc2db4fd4f46c.jpg",
     "revision": "de2b70b94a3d31418f9734bc06bb7234"
-  },
-  {
-    "url": "assets/static/studio-steinway.2665e34.17ad1d07b7764499a88dc2db4fd4f46c.jpg",
-    "revision": "4a10add6fa6c1617d18fabcbe4e025c6"
-  },
-  {
-    "url": "assets/static/studio-steinway.42db587.17ad1d07b7764499a88dc2db4fd4f46c.jpg",
-    "revision": "ab91d60977ed5f39db54b80d5e14104f"
-  },
-  {
-    "url": "assets/static/studio-steinway.6b65613.17ad1d07b7764499a88dc2db4fd4f46c.jpg",
-    "revision": "318783ff12111673aae6525ede135b52"
   },
   {
     "url": "assets/static/studio-steinway.81b85c1.17ad1d07b7764499a88dc2db4fd4f46c.jpg",
     "revision": "9e646542f24ef7ebe351f349f174ec2f"
   },
   {
-    "url": "assets/static/studio-steinway.82a2fbd.17ad1d07b7764499a88dc2db4fd4f46c.jpg",
-    "revision": "927fd4e7879a4ad8e4163ac1a2ab2f84"
-  },
-  {
     "url": "assets/static/studio-steinway.a67b0b2.17ad1d07b7764499a88dc2db4fd4f46c.jpg",
     "revision": "927fd4e7879a4ad8e4163ac1a2ab2f84"
   },
   {
-    "url": "assets/static/studio-steinway.cbab2cf.17ad1d07b7764499a88dc2db4fd4f46c.jpg",
-    "revision": "c456993cf1bef024efe09b2208d3f4d7"
-  },
-  {
     "url": "gallery/index.html",
-    "revision": "400f93fd27da001220b5f16ecceaf8c6"
+    "revision": "0db563de24c8ab78ef5687f2edeb4147"
   },
   {
     "url": "giveaway/index.html",
-    "revision": "5b76c14b3f50151dc995262cd25a5d44"
+    "revision": "c1d08b581d292c467e8214f482fc0e98"
   },
   {
     "url": "index.html",
-    "revision": "af1819dd84ba3441b8f2b97b7cb318c1"
+    "revision": "d75702ee1061fd65a5fa1581aaae76aa"
   },
   {
     "url": "manifest.json",
@@ -319,15 +223,15 @@ self.__precacheManifest = [
   },
   {
     "url": "piano-studio/index.html",
-    "revision": "408a640667a4b2ea362b7630b251e985"
+    "revision": "0800436e9dc3cc794ca1ee8b44c84d8a"
   },
   {
     "url": "recording/index.html",
-    "revision": "697addcc079ad1fea2e769b44e083d7a"
+    "revision": "a225a05b0c64c03f04320d07de914b6e"
   },
   {
     "url": "samples/index.html",
-    "revision": "92cabfb28f8a5cb405fdcb1ea17275c7"
+    "revision": "e29c1bde438ce05b3592b8590535ff11"
   },
   {
     "url": "studio/score.jpg",
@@ -371,55 +275,43 @@ self.__precacheManifest = [
   },
   {
     "url": "tag/audition/index.html",
-    "revision": "d708bb714a57a9d6c38b15b2915dbb1e"
+    "revision": "2c20578ac529cf59ee1d46c3c2cf97bc"
   },
   {
     "url": "tag/consultation/index.html",
-    "revision": "f45f7c0b3249f9954215749cab9da7c6"
+    "revision": "90477f965d47a74895388f9faccb6dd7"
   },
   {
     "url": "tag/giveaway/index.html",
-    "revision": "14e9a1ce3996a9f0493fae2e7a0d95cb"
+    "revision": "46bb6cb4b108a639b99b5efad12b8379"
   },
   {
     "url": "tag/lesson/index.html",
-    "revision": "33d4209d73653c24636661dfd74fb01b"
+    "revision": "f720a07a31fa3f621c114315c9ff5c0c"
   },
   {
     "url": "tag/recording/index.html",
-    "revision": "f15e7117b1c7092ae94e6f553dee1bfd"
+    "revision": "419f1a64f318ec3e8ff9fa568431a9f3"
   },
   {
     "url": "tag/studio/index.html",
-    "revision": "9f8eaa88134723687ecce70b6b3b09f4"
+    "revision": "39950787398fce9ae57c18d539da9b02"
   },
   {
     "url": "tag/youtube/index.html",
-    "revision": "58d181a55d18d4a7cd9860fc5f277c99"
+    "revision": "0983d31c3d362eaf56792c048a8424cb"
   },
   {
     "url": "404",
     "revision": "58562ccce683f1fa20f0b08d84a700bb"
   },
   {
-    "url": "tag/giveaway",
-    "revision": "99c780b68c8f39be39e435b536704b38"
+    "url": "tag/studio",
+    "revision": "20ae2896c394c0ba0e3702516c5dd50c"
   },
   {
     "url": "tag/recording",
     "revision": "8e0c87119843f4fa46e06137262da462"
-  },
-  {
-    "url": "tag/lesson",
-    "revision": "826ed0b1cfc9df909da7769c85f2d03d"
-  },
-  {
-    "url": "tag/consultation",
-    "revision": "324044fc78f58a82f2ea90b4c0a368b9"
-  },
-  {
-    "url": "tag/studio",
-    "revision": "20ae2896c394c0ba0e3702516c5dd50c"
   },
   {
     "url": "tag/audition",
@@ -430,6 +322,18 @@ self.__precacheManifest = [
     "revision": "d66fca591974d12873a72632e96d7512"
   },
   {
+    "url": "tag/giveaway",
+    "revision": "99c780b68c8f39be39e435b536704b38"
+  },
+  {
+    "url": "tag/lesson",
+    "revision": "826ed0b1cfc9df909da7769c85f2d03d"
+  },
+  {
+    "url": "tag/consultation",
+    "revision": "324044fc78f58a82f2ea90b4c0a368b9"
+  },
+  {
     "url": "samples",
     "revision": "cb38127bc5e2cfc3c234e71d9edf2b50"
   },
@@ -438,16 +342,16 @@ self.__precacheManifest = [
     "revision": "41ddb6053505daa7606d34000e592c99"
   },
   {
+    "url": "recording",
+    "revision": "7f23c0e8fdfd37e08713c4cc74ccd3a3"
+  },
+  {
     "url": "giveaway",
     "revision": "fa4d655171b8fc1bb802e78b43aedbf9"
   },
   {
     "url": "piano-studio",
     "revision": "a1d61d3d5776019365f7baf2df296148"
-  },
-  {
-    "url": "recording",
-    "revision": "7f23c0e8fdfd37e08713c4cc74ccd3a3"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});

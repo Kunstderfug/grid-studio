@@ -8,25 +8,19 @@ canonical_url: false
 description: 'HQ audio/video for auditions, YouTube. <br> CD producing'
 ---
 
-<script>
-import Gallery from '~/components/Gallery.vue'
-
-export default {
-    components: {
-        Gallery
-    }
-}
-</script>
-
 <div style="text-align: center">
 
 ## Welcome to my piano and recording studio.
 
+#### Please drop me an [@email](mailto:gryaznov.studio@gmail.com) to book your time or ask a question.
+
 </div>
+
+<space class="space"></space>
 
 <div style="text-align: center">
 
-[Services](#services) | [Pricing](#pricing) | [Equipment](#equipment) | [Gallery](#gallery) | [Booking](#booking)
+[Services](#services) | [Pricing](#pricing) | [Equipment](#equipment)
 
 </div>
 
@@ -46,7 +40,7 @@ CD recording, producing and mastering.
 
 The schedule depends on my availability, see my [concerts](https://gryaznoff.com/category/concerts) page.
 
-To get some info about the piano lessons click [piano studio](/piano-studio) page.
+To get some info about the piano lessons, click [piano studio](/piano-studio) page.
 
 Check [giveaway](/giveaway) page to know about free recording sessions for musicians.
 
@@ -78,12 +72,6 @@ Two-angle shoot - $500
 <p>1 CD - $1000</p>
 
 This option is including 4 hours of recording at studio.
-
-</div>
-
-<div class="text-center">
-
-Please use [contact form](#booking) below or [@email](mailto:gryaznov.studio@gmail.com) to book your time or ask a question.
 
 </div>
 
@@ -136,29 +124,18 @@ Oktava professional condenser microphones (6)
 
 </div>
 
-### Gallery
+<div style="text-align: center">
 
-<div class="gallery">
-
-![Piano studio](./images/studio-2.jpg)
-
-![Piano studio](./images/studio-steinway-1.jpg)
-
-![Piano studio](./images/studio-steinway.jpg)
-
-![Piano studio](./images/studio-3.jpg)
-
-<!-- ![Piano studio](./../../src/assets/studio/studio-4.jpg) -->
-
-<!-- ![Piano studio](./../../src/assets/studio/studio-5.jpg) -->
-
-<!-- ![Piano studio](./../../src/assets/studio/studio-6.jpg) -->
+#### Please drop me an [@email](mailto:gryaznov.studio@gmail.com) to book your time or ask a question.
 
 </div>
+<space class="space"></space>
 
-### Booking
+<!-- ### Booking
 
-<br>
+#### Drop me an [email](mailto:gryaznovstudio@gmail.com) -->
+
+<!-- <br>
 <form method="post" name="studio" data-netlify="true" data-netlify-honeypot="bot-field">
 <input type="hidden" name="form-name" value="studio" />
 <label for="name">Name</label>
@@ -177,4 +154,4 @@ Oktava professional condenser microphones (6)
 <br>
 <br>
 <button type="submit">Send your message</button>
-</form>
+</form> -->

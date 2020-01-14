@@ -38,6 +38,6 @@ _The final result will include audio tracks suitable to print on CD, and one ang
 
 The winners can use the recorded material however they want.
 
-I will retain the rights to use the excerpts from these recordings as the examples of work for this particular webpage, for my [Facebook](https://www.facebook.com/SlavaPiano/ 'Facebook studio page') page and on my [Google Business](https://gryaznov-piano-studio.business.site 'Google Business studio page') page.
+I will retain the rights to use the excerpts from these recordings as the examples of work for this particular website and for my [Facebook](https://www.facebook.com/SlavaPiano/ 'Facebook studio page') page.
 
 Good luck!

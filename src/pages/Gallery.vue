@@ -5,21 +5,8 @@
     </div>
 
     <div class="post content-box">
+      <h2>the page is under construction</h2>
       <!-- <gallery :images="images" :index="index" @close="index = null"></gallery> -->
-      <div class="gallery">
-        <div class="image"
-          ><g-image src="../assets/studio/studio-steinway.jpg"
-        /></div>
-        <div class="image"
-          ><g-image src="../assets/studio/studio-steinway-1.jpg"
-        /></div>
-        <div class="image"><g-image src="../assets/studio/studio-2.jpg"/></div>
-        <div class="image"><g-image src="../assets/studio/studio-3.jpg"/></div>
-        <div class="image"><g-image src="../assets/studio/studio-4.jpg"/></div>
-        <div class="image"><g-image src="../assets/studio/studio-5.jpg"/></div>
-        <div class="image"><g-image src="../assets/studio/studio-6.jpg"/></div>
-        <div class="image"><g-image src="../assets/studio/studio-7.jpg"/></div>
-      </div>
       <!-- <div class="gallery">
         <div
           class="image"
