@@ -17,12 +17,12 @@
       }}
     </h1>
 
-    <p class="author__links">
+    <!-- <p class="author__links">
       <a href="//gryaznoff.com" target="_blank" rel="noreferrer">Webpage</a>
       <a href="//facebook.com/vyacheslav.gryaznov" target="_blank" rel="noreferrer">Facebook</a>
       <a href="//youtube.com/VyacheslavGryaznovPiano" target="_blank" rel="noreferrer">YouTube</a>
       <a href="//mailto:gryaznov.studio@gmail.com" target="_blank" rel="noreferrer">@email</a>
-    </p>
+    </p>-->
   </div>
 </template>
 

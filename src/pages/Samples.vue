@@ -1,20 +1,24 @@
 <template>
   <Layout :show-logo="true">
-    <div class="post-title"> <h1 class="post-title__text">Samples</h1></div>
+    <div class="post-title">
+      <h1 class="post-title__text">Samples</h1>
+    </div>
     <div class="post content-box">
       <LazyYoutubeVideo src="https://www.youtube.com/embed/nssB7EZKCO0" />
       <p></p>
       <LazyYoutubeVideo src="https://www.youtube.com/embed/ZMFC_xtqHVY" />
+      <p></p>
+      <LazyYoutubeVideo src="https://www.youtube.com/embed/TJ9cuE86mmE" />
     </div>
   </Layout>
 </template>
 
 <script>
-import 'vue-lazy-youtube-video/dist/style.css';
-import LazyYoutubeVideo from 'vue-lazy-youtube-video';
+import "vue-lazy-youtube-video/dist/style.css";
+import LazyYoutubeVideo from "vue-lazy-youtube-video";
 
 export default {
-  name: 'YoutubeVideo',
+  name: "YoutubeVideo",
   components: {
     LazyYoutubeVideo
   }

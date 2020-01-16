@@ -27,7 +27,7 @@ The schedule depends on my availability, see my [concerts](https://gryaznoff.com
 
 <space class="space"></space>
 
-Please [@email](mailto:gryaznov.studio@gmail.com) me to book your time or ask a question.
+Please use [contact form](/recording#address) or [@email](mailto:gryaznov.studio@gmail.com) me to book your time or ask a question.
 
 <!-- <br>
 <form method="post" name="contact-studio" data-netlify="true" data-netlify-honeypot="bot-field">

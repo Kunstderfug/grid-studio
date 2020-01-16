@@ -15,38 +15,22 @@
       </main>
     </transition>
     <footer class="footer">
-      <span class="footer__copyright"
-        >V. Gryaznov © {{ new Date().getFullYear() }}</span
-      >
-      <br />
+      <span class="footer__copyright">VG Studio © {{ new Date().getFullYear() }}</span>
+      <p>821 Riverside Drive, New York, NY 10032</p>
+
       <span class="footer__links">
         <a href="//gryaznoff.com" target="_blank" rel="noreferrer">Webpage</a>
-        <a
-          href="//facebook.com/vyacheslav.gryaznov"
-          target="_blank"
-          rel="noreferrer"
-          >Facebook</a
-        >
-        <a
-          href="//youtube.com/VyacheslavGryaznovPiano"
-          target="_blank"
-          rel="noreferrer"
-          >YouTube</a
-        >
-        <a
-          href="//mailto:gryaznov.studio@gmail.com"
-          target="_blank"
-          rel="noreferrer"
-          >@email</a
-        >
+        <a href="//facebook.com/vyacheslav.gryaznov" target="_blank" rel="noreferrer">Facebook</a>
+        <a href="//youtube.com/VyacheslavGryaznovPiano" target="_blank" rel="noreferrer">YouTube</a>
+        <a href="//mailto:gryaznov.studio@gmail.com" target="_blank" rel="noreferrer">@email</a>
       </span>
     </footer>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue';
-import ToggleTheme from '~/components/ToggleTheme.vue';
+import Logo from "~/components/Logo.vue";
+import ToggleTheme from "~/components/ToggleTheme.vue";
 
 export default {
   props: {
@@ -93,12 +77,13 @@ hr {
   margin: -2rem auto 2rem auto;
   // padding: 1.5vw 15px 0;
   padding: 1.3rem;
+  min-height: calc(100vh - 13rem);
 }
 
 @media screen and (min-width: 768px) {
   .main {
     padding: 0 5rem;
-    min-height: calc(100vh - 11rem);
+    min-height: calc(100vh - 12rem);
   }
 }
 

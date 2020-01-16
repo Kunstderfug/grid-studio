@@ -12,7 +12,7 @@ description: 'HQ audio/video for auditions, YouTube. <br> CD producing'
 
 ## Welcome to my piano and recording studio.
 
-#### Please drop me an [@email](mailto:gryaznov.studio@gmail.com) to book your time or ask a question.
+#### Please use the [contact form](#address) below drop me an [@email](mailto:gryaznov.studio@gmail.com) to book your time or ask a question.
 
 </div>
 
@@ -20,7 +20,7 @@ description: 'HQ audio/video for auditions, YouTube. <br> CD producing'
 
 <div style="text-align: center">
 
-[Services](#services) | [Pricing](#pricing) | [Equipment](#equipment)
+[Services](#services) | [Pricing](#pricing) | [Equipment](#equipment) | [Address](#address)
 
 </div>
 
@@ -28,7 +28,7 @@ description: 'HQ audio/video for auditions, YouTube. <br> CD producing'
 
 <div class="eq">
 
-High quality video recording up to 4K.
+Video recording up to 4K.
 
 One or two angle shoot.
 
@@ -118,15 +118,59 @@ Oktava professional condenser microphones (6)
 
 </div>
 
-<div class="text-right hidden">
+### Address
 
-[back to top](#intro)
+<space class="space"></space>
 
+<div>
+
+[821 Riverside Drive, New York, NY 10032](https://goo.gl/maps/KT2sB9eWVhsf2QpG7 'open in Google Maps')
+
+<div>
+    <details>
+        <summary>Google Maps</summary>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3018.650024686842!2d-73.94830838351804!3d40.835650279318585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f685a2d1b7c7%3A0x172eca76780f45d6!2s821%20Riverside%20Dr%2C%20New%20York%2C%20NY%2010032!5e0!3m2!1sen!2sus!4v1579069122255!5m2!1sen!2sus"
+            width="100%"
+            height="250"
+            frameborder="0"
+            style="border:0;"
+            allowfullscreen
+          ></iframe>
+    </details>
 </div>
+</div>
+<div class="text-center">
 
-<div style="text-align: center">
+#### Contact form
 
-#### Please drop me an [@email](mailto:gryaznov.studio@gmail.com) to book your time or ask a question.
+<form
+  action="https://formspree.io/xbjgkoqk"
+  method="POST"
+>
+  <label for="name">Name</label>
+<br>
+<input type="text" name="name" id="name" placeholder="Your name here.." required/>
+<br>
+<br>
+<label for="email">Email</label>
+<br>
+<input type="email" name="email" id="email" placeholder="email@example.com" required/>
+<br>
+<br>
+<label for="subject">Subject</label>
+<br>
+<input type="text" name="subject" id="subject" placeholder="what's up" required/>
+<br>
+<br>
+<label for="message"> Message</label>
+<br>
+<textarea name="message" id="message" placeholder="write something interesting" style="height: 150px" required></textarea>
+<br>
+<br>
+<button type="submit">Send your message</button>
+
+</form>
 
 </div>
 <space class="space"></space>

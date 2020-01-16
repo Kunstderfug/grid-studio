@@ -12,8 +12,11 @@
     "@gridsome/source-filesystem": "^0.6.0",
     "@gridsome/transformer-remark": "^0.4.0",
     "@gridsome/vue-remark": "^0.1.9",
-    "gridsome": "^0.7.0",
+    "gridsome": "^0.7.12",
     "gridsome-plugin-pwa": "^0.0.12",
+    "jsdom": "^16.0.0",
+    "vue": "^2.6.11",
+    "vue-easy-lightbox": "^0.9.0",
     "vue-gallery": "^2.0.1",
     "vue-lazy-youtube-video": "^2.0.0-beta.0"
   },
