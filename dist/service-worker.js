@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "86aef1da83a8ca0e0ffef199a6a50251"
+    "revision": "de264c95b8cffd16db5d533d30be3053"
   },
   {
     "url": "404/index.html",
-    "revision": "86aef1da83a8ca0e0ffef199a6a50251"
+    "revision": "de264c95b8cffd16db5d533d30be3053"
   },
   {
     "url": "assets/css/0.styles.20011064.css",
@@ -39,59 +39,59 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/data/404/index.json",
-    "revision": "d169769eaf50813014c76367172997ca"
+    "revision": "bedc9596fb55db2d069a3160e99a7227"
   },
   {
     "url": "assets/data/gallery/index.json",
-    "revision": "d169769eaf50813014c76367172997ca"
+    "revision": "bedc9596fb55db2d069a3160e99a7227"
   },
   {
     "url": "assets/data/giveaway/index.json",
-    "revision": "988d1f294371f6773fd33d5dc332e231"
+    "revision": "169dce8cb0a95f332d6ddba462754c87"
   },
   {
     "url": "assets/data/index.json",
-    "revision": "51cfd1634e5669a29f35e2d6adc963a7"
+    "revision": "e433d92063727fdaa2c0487c544bfc67"
   },
   {
     "url": "assets/data/piano-studio/index.json",
-    "revision": "78164f9785182a7f20bef6d493a2e5ea"
+    "revision": "84997df8608fdd2739285be9f0226d93"
   },
   {
     "url": "assets/data/recording/index.json",
-    "revision": "cd61814739d1906968db6aa26e3c459c"
+    "revision": "8ef727c275ed6fa41e2cbcc4cb08778f"
   },
   {
     "url": "assets/data/samples/index.json",
-    "revision": "d169769eaf50813014c76367172997ca"
+    "revision": "bedc9596fb55db2d069a3160e99a7227"
   },
   {
     "url": "assets/data/tag/audition/index.json",
-    "revision": "53e47b454094f5d16d073c21a35eed15"
+    "revision": "cba12f3c20348de22b875e3e6f7da42b"
   },
   {
     "url": "assets/data/tag/consultation/index.json",
-    "revision": "0ea6abb66c13703e4fc72470ea9d7da7"
+    "revision": "16a770705036a6e91688912d63cb53f5"
   },
   {
     "url": "assets/data/tag/giveaway/index.json",
-    "revision": "a04c632ae67b787c7641742c34a82fae"
+    "revision": "899782831979b2137d449e8493f67c82"
   },
   {
     "url": "assets/data/tag/lesson/index.json",
-    "revision": "74ead18561a6fd69d582500115062a37"
+    "revision": "2bd1fefcecaa3583e94e3692af3e6f4b"
   },
   {
     "url": "assets/data/tag/recording/index.json",
-    "revision": "f5fee7fc5f0ffc7028cd6aba5cb86bc4"
+    "revision": "fe8edee3a951fe6632901ffa97a56a69"
   },
   {
     "url": "assets/data/tag/studio/index.json",
-    "revision": "5afe1596087829a8e978dd42f6100ca6"
+    "revision": "c0b98184467a9cdfb308dc78422e725e"
   },
   {
     "url": "assets/data/tag/youtube/index.json",
-    "revision": "a8648e27cb048d5335b97803d68c5de3"
+    "revision": "cc7e8ae8de56c0d5507403ce18d9cd1b"
   },
   {
     "url": "assets/img/coffee.00e58597.svg",
@@ -102,8 +102,8 @@ self.__precacheManifest = [
     "revision": "a8d127aae36b4ca1f3a800cdad093ce8"
   },
   {
-    "url": "assets/js/app.d4e5a7ae.js",
-    "revision": "a0269184bdae743fa29d45926a1cedf9"
+    "url": "assets/js/app.a5f33a9f.js",
+    "revision": "307bd8e42567056bcc87a03439748819"
   },
   {
     "url": "assets/js/page--node-modules-gridsome-app-pages-404-vue.9ff0420a.js",
@@ -114,7 +114,7 @@ self.__precacheManifest = [
     "revision": "d5af1d6723456536cdbc86038da5e3d2"
   },
   {
-    "url": "assets/js/page--src-pages-index-vue.499db4e1.js",
+    "url": "assets/js/page--src-pages-index-vue.02498873.js",
     "revision": "7e9bd63262b964c35c73762c1392ef9a"
   },
   {
@@ -122,11 +122,11 @@ self.__precacheManifest = [
     "revision": "006a601a62ac7b42324e747c18aaabe8"
   },
   {
-    "url": "assets/js/page--src-templates-post-vue.4791a15c.js",
+    "url": "assets/js/page--src-templates-post-vue.b9f5eb18.js",
     "revision": "aacbc57c35199ffe148e847b0e3f573c"
   },
   {
-    "url": "assets/js/page--src-templates-tag-vue.84aa28f0.js",
+    "url": "assets/js/page--src-templates-tag-vue.7984f32e.js",
     "revision": "cfbac8eba37c3b3be0d0e7b23a021b53"
   },
   {
@@ -207,15 +207,15 @@ self.__precacheManifest = [
   },
   {
     "url": "gallery/index.html",
-    "revision": "511b119710afa9d8c4ca34fe00b716b6"
+    "revision": "7b8a7a1bb02af71affdf4963e33250e8"
   },
   {
     "url": "giveaway/index.html",
-    "revision": "58f07bc8aa9fe652ada496f02176b6de"
+    "revision": "5bb236a3e7be8788847f882a7c6706e8"
   },
   {
     "url": "index.html",
-    "revision": "799e6e0a46539c321f8a6628e9775ea1"
+    "revision": "4b81db0bfaffd9f3718a97a37054ec0b"
   },
   {
     "url": "manifest.json",
@@ -223,43 +223,43 @@ self.__precacheManifest = [
   },
   {
     "url": "piano-studio/index.html",
-    "revision": "699c4d2197f8ad4994c32848d2f21776"
+    "revision": "a1f3d5b650552a2a9e19abdb35a72f9f"
   },
   {
     "url": "recording/index.html",
-    "revision": "8e357dff2261c65bc3cce44a1cf86c23"
+    "revision": "9a11d0950faa9beffa18044fa30a701a"
   },
   {
     "url": "samples/index.html",
-    "revision": "02e52b17556d04f6e66879619e601364"
+    "revision": "7aa75e0cbca7b995f4b80cd11ab83135"
   },
   {
     "url": "tag/audition/index.html",
-    "revision": "4deb7d951d30f8bddc413bcf7dc52147"
+    "revision": "ee15a9f7da2f2dc2f6d2e27d589fcdd1"
   },
   {
     "url": "tag/consultation/index.html",
-    "revision": "a26c381fec2f463126eb751e49a530c4"
+    "revision": "0b43e7540bf80fd6c9f7a553fb3d7b51"
   },
   {
     "url": "tag/giveaway/index.html",
-    "revision": "5eaa6966368842ee995b71f1836a8797"
+    "revision": "7a32b65c4aa3d846caf597cb0dc854ab"
   },
   {
     "url": "tag/lesson/index.html",
-    "revision": "847f10958d65f63347e6defd05bf2303"
+    "revision": "a8c7b80c432841b187eb29237aafb8ad"
   },
   {
     "url": "tag/recording/index.html",
-    "revision": "8ebee22bce4f5718dd538f1f93c28fc4"
+    "revision": "afdfcec0c1e5305281012a7a85a08e5e"
   },
   {
     "url": "tag/studio/index.html",
-    "revision": "30e22d3ec2335a28304f69cdc2eb6b0a"
+    "revision": "5ca0ddb5869391d8554fcb33a5b7eb65"
   },
   {
     "url": "tag/youtube/index.html",
-    "revision": "37a508a1090c06e1ea0aa84d977d7ce7"
+    "revision": "cf1a326ab06f3fba4f4fb2fd8b8722bf"
   },
   {
     "url": "404",
