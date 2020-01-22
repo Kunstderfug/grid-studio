@@ -1,0 +1,18 @@
+<template>
+  <div class="gallery">
+    <Slides></Slides>
+  </div>
+</template>
+
+<script>
+import Slides from "./Slides";
+
+export default {
+  components: {
+    Slides
+  }
+};
+</script>
+
+<style lang="scss" scoped>
+</style>
