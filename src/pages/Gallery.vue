@@ -11,14 +11,18 @@
           :key="index"
           @click="() => showImg(index)"
         >
-          <a :href="src">
-            <g-image :src="src" :visible="visible" :imgs="imgs" @hide="handleHide" />
-          </a>
-          <!-- <a :href="src" target="_blank" rel="noopener norefferer"></a> -->
+          <g-image
+            :src="src"
+            :visible="visible"
+            :imgs="imgs"
+            @hide="handleHide"
+          />
         </picture>
       </div>
-      <!-- <button @click="showSingle">Show single picture.</button>
-      <button @click="showMultiple">Show a group of pictures.</button>-->
+      <div>
+        {{ message }}
+        <img :src="src" />
+      </div>
     </div>
   </Layout>
 </template>
@@ -28,33 +32,23 @@ export default {
   data() {
     return {
       imgs: [
-        "https://kunstderfug.github.io/Images/studio/room.jpg",
-        // "https://kunstderfug.github.io/Images/studio/piano1.jpg",
-        "https://kunstderfug.github.io/Images/studio/piano2.jpg",
-        "https://kunstderfug.github.io/Images/studio/mics-1.jpg",
-        "https://kunstderfug.github.io/Images/studio/bmpcc4k.jpg",
-        "https://kunstderfug.github.io/Images/studio/mics-2.jpg",
-        "https://kunstderfug.github.io/Images/studio/piano3.jpg",
-        // "https://kunstderfug.github.io/Images/studio/piano4.jpg",
-        "https://kunstderfug.github.io/Images/studio/cards.jpg",
-        // "https://kunstderfug.github.io/Images/studio/minion.jpg",
-        // "https://kunstderfug.github.io/Images/studio/pilot.jpg",
-        "https://kunstderfug.github.io/Images/studio/stuff.jpg"
-      ], // Img Url , string or Array
+        "./studio/room.jpg",
+        "./studio/piano2.jpg",
+        "./studio/mics-1.jpg",
+        "./studio/bmpcc4k.jpg",
+        "./studio/mics-2.jpg",
+        "./studio/piano3.jpg",
+        "./studio/cards.jpg",
+        "./studio/stuff.jpg"
+      ],
       visible: false,
-      index: 0 // default
+      index: 0,
+      message: "here will be the picture"
     };
   },
   methods: {
-    show() {
-      this.visible = true;
-    },
-    showImg(index) {
-      this.index = index;
-      this.visible = true;
-    },
-    handleHide() {
-      this.visible = false;
+    showImg() {
+      this.src = src;
     }
   }
 };
@@ -129,7 +123,7 @@ picture {
     background-size: cover;
     transition: transform 0.3s ease;
     &:hover {
-      transform: scale(2);
+      transform: scale(1.1);
     }
   }
 }
